@@ -6,6 +6,7 @@ class Simulator:
         self.events = arrivals
         self.service_time = service_time
         self.last_dispatched_id = 0
+        #create lists of customers
 
         self.customer_served = None
         self.customer_waiting = None
@@ -66,7 +67,7 @@ class Simulator:
 
     def _on_arrive(self, time, cust_id):
         print(f'{time:5.3f} {cust_id:03} arrives')
-        if self.customer_served is None:
+        if self.customer_served is None:#do initial actions
             self._serve_cust(time, cust_id)
         elif self.customer_waiting is None:
             self._make_cust_wait(time, cust_id)
@@ -105,13 +106,25 @@ class customer:
         self.cust_id = cust_id
         self.simulator = in_simulator
 
-    def check_other_customers(self):
+    def do_initial_actions(self):
         if self.simulator.customer_served is None:
-            pass
+            self.simulator._serve_cust(self.time_arrtived, self.cust_id)
         else:
             if self.simulator.customer_waiting is None:
-                pass
+                self.wait()
             else:
-                pass
+                self.leave()
 
     def leave(self):
+        pass
+
+    def wait(self):
+        assert self.simulator.customer_served is not None
+        assert self.simulator.customer_waiting is None
+
+        print(f'{self.time_arrtived:5.3f} {self.cust_id:03} waiting')
+        self.simulator.start_waiting_time = self.time_arrtived
+        self.simulator.customer_waiting = self.cust_id
+
+        assert self.simulator.customer_served is not None
+        assert self.simulator.customer_waiting is not None
