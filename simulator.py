@@ -98,3 +98,20 @@ class Simulator:
         lost = self.num_lost_customers
         ave_waiting_time = self.total_waiting_time / served
         return ave_waiting_time, served, lost
+
+class customer:
+    def __init__(self, time_arrived, cust_id, in_simulator):
+        self.time_arrtived = time_arrived
+        self.cust_id = cust_id
+        self.simulator = in_simulator
+
+    def check_other_customers(self):
+        if self.simulator.customer_served is None:
+            pass
+        else:
+            if self.simulator.customer_waiting is None:
+                pass
+            else:
+                pass
+
+    def leave(self):
