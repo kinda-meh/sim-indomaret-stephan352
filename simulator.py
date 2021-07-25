@@ -24,11 +24,6 @@ class Simulator:
     def _push(self, event):
         self.events.append(event)
 
-    def _cust_leaves(self, time, cust_id):
-        assert self.customer_served is not None
-        assert self.customer_waiting is not None
-        self.num_lost_customers += 1
-        print(f'{time:5.3f} {cust_id:03} leaves')
 
     def _serve_cust(self, time, cust_id):
         assert self.customer_served is None
@@ -53,17 +48,6 @@ class Simulator:
 
         assert self.customer_served is not None
         assert self.customer_waiting is None
-
-    def _make_cust_wait(self, time, cust_id):
-        assert self.customer_served is not None
-        assert self.customer_waiting is None
-
-        print(f'{time:5.3f} {cust_id:03} waiting')
-        self.start_waiting_time = time
-        self.customer_waiting = cust_id
-
-        assert self.customer_served is not None
-        assert self.customer_waiting is not None
 
     def _on_arrive(self, time, cust_id):
         print(f'{time:5.3f} {cust_id:03} arrives')
@@ -127,5 +111,3 @@ class customer:
 
         assert self.simulator.customer_served is not None
         assert self.simulator.customer_waiting is not None
-
-# cust_id needs to stop being an argument
