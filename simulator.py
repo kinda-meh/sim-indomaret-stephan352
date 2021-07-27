@@ -4,9 +4,9 @@ from event import Event, EventType
 class Simulator:
     def __init__(self, arrivals, service_time=2.0):
         self.events = arrivals
-        self.service_time = service_time
         self.last_dispatched_id = 0
         self.customers = []
+        self.mba = mba2(self, service_time)
 
         self.customer_served = None
         self.customer_waiting = None
@@ -25,30 +25,6 @@ class Simulator:
         self.events.append(event)
 
 
-    def _serve_cust(self, time, cust_id):
-        assert self.customer_served is None
-        assert self.customer_waiting is None
-
-        print(f'{time:5.3f} {cust_id:03} served')
-        self.num_served_customers += 1
-        self.customer_served = cust_id
-        self._push(Event(time + self.service_time, EventType.DONE))
-
-        assert self.customer_served is not None
-        assert self.customer_waiting is None
-
-    def _serve_waiting(self, time):
-        assert self.customer_served is None
-        assert self.customer_waiting is not None
-
-        cust, self.customer_waiting = self.customer_waiting, None
-        self.total_waiting_time += time - self.start_waiting_time
-        print(f'{time:5.3f} {cust:03} done waiting')
-        self._serve_cust(time, cust)
-
-        assert self.customer_served is not None
-        assert self.customer_waiting is None
-
     def _on_arrive(self, time, cust_id):
         print(f'{time:5.3f} {cust_id:03} arrives')
         current_customer = tuple(filter(lambda cust: cust.cust_id == cust_id, self.customers))[0]
@@ -59,7 +35,7 @@ class Simulator:
         print(f'{time:5.3f} {self.customer_served:03} done')
         self.customer_served = None
         if self.customer_waiting is not None:
-            self._serve_waiting(time)
+            self.mba.serve_waiting(time)
 
     def run(self):
         """ Returns triple of
@@ -86,10 +62,11 @@ class customer:
         self.time_arrtived = time_arrived
         self.cust_id = cust_id
         self.simulator = in_simulator
+        self.mba = in_simulator.mba
 
     def do_initial_actions(self):
         if self.simulator.customer_served is None:
-            self.simulator._serve_cust(self.time_arrtived, self.cust_id)
+            self.mba.serve_cust(self.time_arrtived, self.cust_id)
         elif self.simulator.customer_waiting is None:
             self.wait()
         else:
@@ -111,3 +88,32 @@ class customer:
 
         assert self.simulator.customer_served is not None
         assert self.simulator.customer_waiting is not None
+
+class mba2:
+    def __init__(self, in_simulator, service_time):
+        self.simulator = in_simulator
+        self.service_time = service_time
+
+    def serve_cust(self, time, cust_id):
+        assert self.simulator.customer_served is None
+        assert self.simulator.customer_waiting is None
+
+        print(f'{time:5.3f} {cust_id:03} served')
+        self.simulator.num_served_customers += 1
+        self.simulator.customer_served = cust_id
+        self.simulator._push(Event(time + self.service_time, EventType.DONE))
+
+        assert self.simulator.customer_served is not None
+        assert self.simulator.customer_waiting is None
+
+    def serve_waiting(self, time):
+        assert self.simulator.customer_served is None
+        assert self.simulator.customer_waiting is not None
+
+        cust, self.simulator.customer_waiting = self.simulator.customer_waiting, None
+        self.simulator.total_waiting_time += time - self.simulator.start_waiting_time
+        print(f'{time:5.3f} {cust:03} done waiting')
+        self.serve_cust(time, cust)
+
+        assert self.simulator.customer_served is not None
+        assert self.simulator.customer_waiting is None
