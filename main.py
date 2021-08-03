@@ -19,3 +19,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# change main to accept number of cashiers and continue from below SORTED
