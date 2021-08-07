@@ -22,4 +22,3 @@ class Event:
 class EventType(Enum):
     ARRIVE = "arrive"
     DONE = "done"
-
