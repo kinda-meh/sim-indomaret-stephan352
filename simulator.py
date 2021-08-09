@@ -25,5 +25,8 @@ class Simulator:
                 self.cashier.on_done(event.time)
         served = self.cashier.num_served_customers
         lost = self.cashier.num_lost_customers
-        ave_waiting_time = self.cashier.total_waiting_time / served
+        if self.cashier.total_waiting_time:
+            ave_waiting_time = self.cashier.total_waiting_time / served
+        else:
+            ave_waiting_time = 0
         return ave_waiting_time, served, lost

@@ -3,7 +3,7 @@ from event import Event, EventType
 
 
 class Cashier:
-    def __init__(self, event_list, service_time=2.0):
+    def __init__(self, event_list, service_time=1.0):
         self.service_time = service_time
         self.events = event_list
         self.id = None

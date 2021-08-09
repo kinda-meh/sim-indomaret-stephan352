@@ -4,14 +4,17 @@ from event import Event, EventType
 
 
 def main(inp):
+    lst = list(inp)
+    no_of_cashiers = int(lst[0])
     events = [
-        Event.create(float(time), EventType(type_))
-        for time, type_ in [line.split() for line in inp]
+        Event.create(float(time), EventType('arrive'))
+        for time in lst[1:]
     ]
+    print(events)
 
     sim = Simulator(events)
     ave, served, lost = sim.run()
-    print(f"{ave:.6} {served} {lost}")
+    print(f"{float(ave):.6} {served} {lost}")
     return ave, served, lost
 
 
