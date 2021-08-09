@@ -7,7 +7,7 @@ import pytest
 from main import main
 
 
-approx = partial(pytest.approx, rel=5e-6)
+approx = partial(pytest.approx, abs=5e-3)
 
 
 def search_tcs():
@@ -22,5 +22,5 @@ def test_integration_testcases(i_f, e_f):
         avg, served, lost = main(f)
 
     with open(e_f, "r") as f:
-        expects = f.readline().strip()
-        assert f"{avg:.6} {served} {lost}" == expects
+        e_avg, e_served, e_lost = f.readline().split()
+        assert (avg, served, lost) == (approx(float(e_avg)), int(e_served), int(e_lost))
