@@ -4,10 +4,9 @@ from customer import Customer
 
 
 class Simulator:
-    def __init__(self, arrivals, service_time=2.0):
+    def __init__(self, arrivals):
         self.events = arrivals
-        self.service_time = service_time
-        self.cashier = Cashier(self.events, service_time)
+        self.cashier = Cashier(self.events)
 
     def _pop(self):
         event = min(self.events)
