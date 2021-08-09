@@ -10,13 +10,10 @@ class Simulator:
         self.events = event_list
         self.cashier = Cashier(event_list)
 
-    def _pop(self):
-        return self.events.pop()
-
     def run(self):
         last_dispatched_id = 0
         while self.events.is_events_still_there():
-            event = self._pop()
+            event = self.events.pop()
             if event.type is EventType.ARRIVE:
                 last_dispatched_id += 1
                 new_customer = Customer(event.time, last_dispatched_id)
