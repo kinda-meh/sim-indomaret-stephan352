@@ -1,26 +1,21 @@
 from event import Event, EventType
 from cashier import Cashier
 from customer import Customer
+from eventlst import EventList
 
 
 class Simulator:
     def __init__(self, arrivals):
-        self.events = arrivals
-        self.cashier = Cashier(self.events)
+        event_list = EventList(arrivals)
+        self.events = event_list
+        self.cashier = Cashier(event_list)
 
     def _pop(self):
-        event = min(self.events)
-        self.events.remove(event)
-        return event
+        return self.events.pop()
 
     def run(self):
-        """Returns triple of
-        average waiting time,
-        number of served customers,
-        number of lost customers.
-        """
         last_dispatched_id = 0
-        while self.events:
+        while self.events.is_events_still_there():
             event = self._pop()
             if event.type is EventType.ARRIVE:
                 last_dispatched_id += 1
