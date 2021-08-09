@@ -3,9 +3,9 @@ from event import Event, EventType
 
 
 class Cashier:
-    def __init__(self, eq, service_time=2.0):
+    def __init__(self, event_list, service_time=2.0):
         self.service_time = service_time
-        self.eq = eq
+        self.events = event_list
         self.id = None
 
         self.customer_serving = None
@@ -15,13 +15,14 @@ class Cashier:
         self.num_served_customers = 0
         self.num_lost_customers = 0
 
+    def push_to_list(self, event):
+        self.events.push(event)
+
     def serve_cust(self, time, customer):
         print(f"{time:5.3f} {customer.id:03} served")
         self.num_served_customers += 1
         self.customer_serving = customer
-        self.eq.append(Event(time + self.service_time, EventType.DONE))
-
-
+        self.push_to_list(Event(time + self.service_time, EventType.DONE))
 
     def make_cust_wait(self, time, customer):
         customer.wait(time)
@@ -51,3 +52,4 @@ class Cashier:
         self.total_waiting_time += time - customer.arrival_time
         print(f"{time:5.3f} {customer.id:03} done waiting")
         self.serve_cust(time, customer)
+
