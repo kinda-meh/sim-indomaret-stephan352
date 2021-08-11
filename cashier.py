@@ -3,10 +3,10 @@ from event import Event, EventType
 
 
 class Cashier:
-    def __init__(self, event_list, service_time=1.0):
+    def __init__(self, id, event_list, service_time=1.0):
         self.service_time = service_time
         self.events = event_list
-        self.id = None
+        self.id = id
 
         self.customer_serving = None
         self.customer_waiting = None
@@ -14,6 +14,12 @@ class Cashier:
         self.total_waiting_time = 0
         self.num_served_customers = 0
         self.num_lost_customers = 0
+
+    def get_cust_serving(self):
+        return self.customer_serving
+
+    def get_cust_waiting(self):
+        return self.customer_waiting
 
     def push_to_list(self, event):
         self.events.push(event)
