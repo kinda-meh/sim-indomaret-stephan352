@@ -10,13 +10,10 @@ class Simulator:
         self.events = event_list
         self.cashier = Cashier(event_list)
 
-    def _pop(self):
-        return self.events.pop()
-
     def run(self):
         last_dispatched_id = 0
         while self.events.is_events_still_there():
-            event = self._pop()
+            event = self.events.pop()
             if event.type is EventType.ARRIVE:
                 last_dispatched_id += 1
                 new_customer = Customer(event.time, last_dispatched_id)
@@ -25,5 +22,8 @@ class Simulator:
                 self.cashier.on_done(event.time)
         served = self.cashier.num_served_customers
         lost = self.cashier.num_lost_customers
-        ave_waiting_time = self.cashier.total_waiting_time / served
+        if self.cashier.total_waiting_time:
+            ave_waiting_time = self.cashier.total_waiting_time / served
+        else:
+            ave_waiting_time = 0
         return ave_waiting_time, served, lost
