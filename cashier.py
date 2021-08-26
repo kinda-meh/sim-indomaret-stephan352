@@ -25,7 +25,7 @@ class Cashier:
         self.events.push(event)
 
     def serve_cust(self, time, customer):
-        print(f"{time:5.3f} {customer.id:03} served")
+        print(f"{time:5.3f} {customer.id:03} served by cashier {self.id}")
         self.num_served_customers += 1
         self.customer_serving = customer
         event = Event(time + self.service_time, EventType.DONE)
@@ -33,7 +33,7 @@ class Cashier:
         self.push_to_list(event)
 
     def make_cust_wait(self, time, customer):
-        customer.wait(time)
+        customer.wait(time, self.id)
         self.customer_waiting = customer
 
     def refuse_customer(self, customer):
@@ -50,7 +50,7 @@ class Cashier:
             self.refuse_customer(customer)
 
     def on_done(self, time):
-        print(f"{time:5.3f} {self.customer_serving.id:03} done")
+        print(f"{time:5.3f} {self.customer_serving.id:03} done by cashier {self.id}")
         self.customer_serving = None
         if self.customer_waiting is not None:
             self.serve_waiting(time)
@@ -58,6 +58,6 @@ class Cashier:
     def serve_waiting(self, time):
         customer, self.customer_waiting = self.customer_waiting, None
         self.total_waiting_time += time - customer.arrival_time
-        print(f"{time:5.3f} {customer.id:03} done waiting")
+        print(f"{time:5.3f} {customer.id:03} done waiting for cashier {self.id}")
         self.serve_cust(time, customer)
 

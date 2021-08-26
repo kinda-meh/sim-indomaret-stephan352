@@ -45,10 +45,12 @@ class Simulator:
                 self.direct_cust_to_cash(event.time, new_customer)
             else:
                 event.cashier.on_done(event.time)
-        served = self.cashier[0].num_served_customers
+        served_list = tuple(map(lambda x: x.num_served_customers, self.cashier))
+        served = sum(served_list)
         lost = self.cashier[0].num_lost_customers
-        if self.cashier[0].total_waiting_time:
-            ave_waiting_time = self.cashier[0].total_waiting_time / served
-        else:
+        try:
+            ave_waiting_time = self.cashier[0].total_waiting_time / served      # fix this
+        except ZeroDivisionError:
             ave_waiting_time = 0
         return ave_waiting_time, served, lost
+
