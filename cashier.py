@@ -28,7 +28,9 @@ class Cashier:
         print(f"{time:5.3f} {customer.id:03} served")
         self.num_served_customers += 1
         self.customer_serving = customer
-        self.push_to_list(Event(time + self.service_time, EventType.DONE))
+        event = Event(time + self.service_time, EventType.DONE)
+        event.note_cashier(self)
+        self.push_to_list(event)
 
     def make_cust_wait(self, time, customer):
         customer.wait(time)

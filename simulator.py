@@ -44,7 +44,7 @@ class Simulator:
                 new_customer = Customer(event.time, last_dispatched_id)
                 self.direct_cust_to_cash(event.time, new_customer)
             else:
-                self.cashier[0].on_done(event.time)                         # find way to fix this
+                event.cashier.on_done(event.time)
         served = self.cashier[0].num_served_customers
         lost = self.cashier[0].num_lost_customers
         if self.cashier[0].total_waiting_time:
