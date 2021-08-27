@@ -36,19 +36,6 @@ class Cashier:
         customer.wait(time, self.id)
         self.customer_waiting = customer
 
-    def refuse_customer(self, customer):
-        customer.leave()
-        self.num_lost_customers += 1
-
-    def on_cust_arrive(self, time, customer):
-        print(f"{time:5.3f} {customer.id:03} arrives")
-        if self.customer_serving is None:
-            self.serve_cust(time, customer)
-        elif self.customer_waiting is None:
-            self.make_cust_wait(time, customer)
-        else:
-            self.refuse_customer(customer)
-
     def on_done(self, time):
         print(f"{time:5.3f} {self.customer_serving.id:03} done by cashier {self.id}")
         self.customer_serving = None
