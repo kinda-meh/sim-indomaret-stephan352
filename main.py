@@ -13,7 +13,7 @@ def main(inp):
 
     sim = Simulator(events, no_of_cashiers)
     ave, served, lost = sim.run()
-    print(f"{float(ave):.6} {served} {lost}")
+    print(f"{float(ave):.2} {served} {lost}")
     return ave, served, lost
 
 
