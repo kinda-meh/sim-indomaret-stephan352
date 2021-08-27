@@ -9,6 +9,7 @@ class Simulator:
         event_list = EventList(arrivals)
         self.events = event_list
         self.cashier = [Cashier(x, event_list) for x in range(1, no_of_cashiers + 1)]
+        self.no_lost_customers = 0
 
     def find_first_idle_cash(self):
         for cash in self.cashier:
@@ -33,6 +34,7 @@ class Simulator:
             nowait_cash.make_cust_wait(time, customer)
         else:
             customer.leave()
+            self.no_lost_customers += 1
 
 
     def run(self):
@@ -44,11 +46,15 @@ class Simulator:
                 new_customer = Customer(event.time, last_dispatched_id)
                 self.direct_cust_to_cash(event.time, new_customer)
             else:
-                self.cashier[0].on_done(event.time)                         # find way to fix this
-        served = self.cashier[0].num_served_customers
-        lost = self.cashier[0].num_lost_customers
-        if self.cashier[0].total_waiting_time:
-            ave_waiting_time = self.cashier[0].total_waiting_time / served
-        else:
+                event.cashier.on_done(event.time)
+        served_list = tuple(map(lambda x: x.num_served_customers, self.cashier))
+        served = sum(served_list)
+        waiting_times = tuple(map(lambda x: x.total_waiting_time, self.cashier))
+        total_wait_time = sum(waiting_times)
+        lost = self.no_lost_customers
+        try:
+            ave_waiting_time = total_wait_time / served
+        except ZeroDivisionError:
             ave_waiting_time = 0
         return ave_waiting_time, served, lost
+

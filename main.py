@@ -10,11 +10,10 @@ def main(inp):
         Event.create(float(time), EventType('arrive'))
         for time in lst[1:]
     ]
-    print(events)
 
     sim = Simulator(events, no_of_cashiers)
     ave, served, lost = sim.run()
-    print(f"{float(ave):.6} {served} {lost}")
+    print(f"{float(ave):.2} {served} {lost}")
     return ave, served, lost
 
 
