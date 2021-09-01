@@ -1,5 +1,9 @@
+import heapq
+
+
 class EventList:
     def __init__(self, arrivals):
+        heapq.heapify(arrivals)
         self.events = arrivals
 
     def is_events_still_there(self):
