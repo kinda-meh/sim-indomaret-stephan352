@@ -12,9 +12,6 @@ class EventList:
     def push(self, event):
         self.events.append(event)
 
-    def get_events(self):
-        return self.events
-
     def pop(self):
         return heapq.heappop(self.events)
 
