@@ -15,3 +15,4 @@ class EventList:
         event = min(self.events)
         self.events.remove(event)
         return event
+
