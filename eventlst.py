@@ -16,7 +16,5 @@ class EventList:
         return self.events
 
     def pop(self):
-        event = min(self.events)
-        self.events.remove(event)
-        return event
+        return heapq.heappop(self.events)
 
