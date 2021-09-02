@@ -14,4 +14,3 @@ class EventList:
 
     def pop(self):
         return heapq.heappop(self.events)
-

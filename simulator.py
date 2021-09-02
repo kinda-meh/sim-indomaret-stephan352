@@ -1,4 +1,4 @@
-from event import Event, EventType
+from event import EventType
 from cashier import Cashier
 from customer import Customer
 from eventlst import EventList
@@ -36,7 +36,6 @@ class Simulator:
             customer.leave()
             self.no_lost_customers += 1
 
-
     def run(self):
         last_dispatched_id = 0
         while self.events.is_events_still_there():
@@ -57,4 +56,3 @@ class Simulator:
         except ZeroDivisionError:
             ave_waiting_time = 0
         return ave_waiting_time, served, lost
-
