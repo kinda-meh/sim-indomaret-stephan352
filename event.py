@@ -5,7 +5,6 @@ class Event:
     def __init__(self, time, event_type):
         self.time = time
         self.type = event_type
-        self.cashier = None
 
     @staticmethod
     def create(time, event_type):
