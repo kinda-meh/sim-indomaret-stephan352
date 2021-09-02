@@ -1,17 +1,17 @@
+import heapq
+
+
 class EventList:
     def __init__(self, arrivals):
+        heapq.heapify(arrivals)
         self.events = arrivals
 
     def is_events_still_there(self):
         return self.events
 
     def push(self, event):
-        self.events.append(event)
-
-    def get_events(self):
-        return self.events
+        heapq.heappush(self.events, event)
 
     def pop(self):
-        event = min(self.events)
-        self.events.remove(event)
-        return event
+        return heapq.heappop(self.events)
+
