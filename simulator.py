@@ -14,7 +14,7 @@ class Simulator:
 
         event_list = EventList(self.make_events(generator, no_of_customers))
         self.events = event_list
-        self.cashier = [Cashier(x, event_list, service_time) for x in range(1, no_of_cashiers + 1)]
+        self.cashier = [Cashier(x, event_list, service_time) for x in range(no_of_cashiers)]
 
 
         self.no_lost_customers = 0
@@ -40,7 +40,7 @@ class Simulator:
         return None
 
     def direct_cust_to_cash(self, time, customer):
-        print(f"{time:5.3f} {customer.id:03} arrives")
+        print(f"{time:5.3f} C{customer.id} arrives")
         idle_cash = self.find_first_idle_cash()
         if idle_cash:
             idle_cash.serve_cust(time, customer)
@@ -57,9 +57,9 @@ class Simulator:
         while self.events.is_events_still_there():
             event = self.events.pop()
             if event.type is EventType.ARRIVE:
-                last_dispatched_id += 1
                 new_customer = Customer(event.time, last_dispatched_id)
                 self.direct_cust_to_cash(event.time, new_customer)
+                last_dispatched_id += 1
             else:
                 event.cashier.on_done(event.time)
         served_list = tuple(map(lambda x: x.num_served_customers, self.cashier))
