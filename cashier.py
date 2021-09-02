@@ -27,7 +27,7 @@ class Cashier:
         print(f"{time:5.3f} {customer.id:03} served by cashier {self.id}")
         self.num_served_customers += 1
         self.customer_serving = customer
-        event = Event(time + self.service_time, EventType.DONE)
+        event = Event.create(float(time + self.service_time), EventType("done"))
         event.note_cashier(self)
         self.push_to_list(event)
 
