@@ -4,7 +4,7 @@ class Customer:
         self.id = cust_id
 
     def wait(self, time, id):
-        print(f"{time:5.3f} C{self.id} waits for S{id}")
+        print(f"{time:5.3f} C{self.id} waits for S{id} (Q: C{self.id})")
 
     def leave(self):
         print(f"{self.arrival_time:5.3f} C{self.id} leaves")
