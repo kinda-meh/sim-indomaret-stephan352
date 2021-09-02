@@ -1,15 +1,31 @@
-from event import EventType
+from event import EventType, Event
 from cashier import Cashier
 from customer import Customer
 from eventlst import EventList
+from rng import RandomGenerator
 
 
 class Simulator:
-    def __init__(self, arrivals, no_of_cashiers=1):
-        event_list = EventList(arrivals)
+    def __init__(self, seed, no_of_cashiers, no_of_customers, arrival_constant, service_constant):
+        generator = RandomGenerator(seed, arrival_constant, service_constant)
+
+        service_time = generator.generate_service_time()
+
+
+        event_list = EventList(self.make_events(generator, no_of_customers))
         self.events = event_list
-        self.cashier = [Cashier(x, event_list) for x in range(1, no_of_cashiers + 1)]
+        self.cashier = [Cashier(x, event_list, service_time) for x in range(1, no_of_cashiers + 1)]
+
+
         self.no_lost_customers = 0
+
+    def make_events(self, generator, no_of_customers):
+        arrivals = []
+        T = 0
+        for i in range(no_of_customers):
+            arrivals.append(Event.create(float(T), EventType("arrive")))
+            T += generator.generate_inter_arrival_time()
+        return arrivals
 
     def find_first_idle_cash(self):
         for cash in self.cashier:
