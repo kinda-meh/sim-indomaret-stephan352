@@ -47,4 +47,3 @@ class Cashier:
         self.total_waiting_time += time - customer.arrival_time
         print(f"{time:5.3f} {customer.id:03} done waiting for cashier {self.id}")
         self.serve_cust(time, customer)
-

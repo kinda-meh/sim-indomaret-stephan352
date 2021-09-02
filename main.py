@@ -6,10 +6,7 @@ from event import Event, EventType
 def main(inp):
     lst = list(inp)
     no_of_cashiers = int(lst[0])
-    events = [
-        Event.create(float(time), EventType('arrive'))
-        for time in lst[1:]
-    ]
+    events = [Event.create(float(time), EventType("arrive")) for time in lst[1:]]
 
     sim = Simulator(events, no_of_cashiers)
     ave, served, lost = sim.run()
