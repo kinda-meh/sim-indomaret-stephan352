@@ -7,7 +7,7 @@ import pytest
 from main import main
 
 
-approx = partial(pytest.approx, abs=5e-3)
+approx = partial(pytest.approx, abs=5e-4)
 
 
 def search_tcs():
