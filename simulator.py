@@ -1,4 +1,4 @@
-from event import Event, EventType
+from event import EventType
 from cashier import Cashier
 from customer import Customer
 from eventlst import EventList
