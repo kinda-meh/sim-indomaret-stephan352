@@ -2,8 +2,8 @@ from event import Event, EventType
 
 
 class Cashier:
-    def __init__(self, id, event_list, service_time=1.0):
-        self.service_time = service_time
+    def __init__(self, id, event_list, generator):
+        self.generator = generator
         self.events = event_list
         self.id = id
 
@@ -27,7 +27,7 @@ class Cashier:
         print(f"{time:5.3f} C{customer.id} served by S{self.id}")
         self.num_served_customers += 1
         self.customer_serving = customer
-        event = Event.create(float(time + self.service_time), EventType("done"))
+        event = Event.create(float(time + self.generator.generate_service_time()), EventType("done"))
         event.note_cashier(self)
         self.push_to_list(event)
 

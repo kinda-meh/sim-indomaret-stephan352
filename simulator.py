@@ -7,15 +7,12 @@ from rng import RandomGenerator
 
 class Simulator:
     def __init__(self, seed, no_of_cashiers, no_of_customers, arrival_constant, service_constant):
-        generator = RandomGenerator(seed, arrival_constant, service_constant)
+        generator_arrival = RandomGenerator(seed, arrival_constant, service_constant)
+        generator_done = RandomGenerator(seed, arrival_constant, service_constant)
 
-        service_time = generator.generate_service_time()
-
-
-        event_list = EventList(self.make_events(generator, no_of_customers))
+        event_list = EventList(self.make_events(generator_arrival, no_of_customers))
         self.events = event_list
-        self.cashier = [Cashier(x, event_list, service_time) for x in range(no_of_cashiers)]
-
+        self.cashier = [Cashier(x, event_list, generator_done) for x in range(no_of_cashiers)]
 
         self.no_lost_customers = 0
 
