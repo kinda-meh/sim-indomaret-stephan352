@@ -1,6 +1,5 @@
 from sys import argv
 from simulator import Simulator
-from event import Event, EventType
 
 
 def main(inp):

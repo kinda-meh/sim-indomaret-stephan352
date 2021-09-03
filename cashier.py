@@ -2,7 +2,7 @@ from event import Event, EventType
 
 
 class Cashier:
-    def __init__(self, id, event_list, generator):
+    def __init__(self, id, event_list):
         self.events = event_list
         self.id = id
 
