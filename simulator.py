@@ -1,15 +1,28 @@
-from event import EventType
+from event import EventType, Event
 from cashier import Cashier
 from customer import Customer
 from eventlst import EventList
+from rng import RandomGenerator
 
 
 class Simulator:
-    def __init__(self, arrivals, no_of_cashiers=1):
-        event_list = EventList(arrivals)
+    def __init__(self, seed, no_of_cashiers, no_of_customers, arrival_constant, service_constant):
+        generator = RandomGenerator(seed, arrival_constant, service_constant)
+        self.generator = generator
+
+        event_list = EventList(self.make_events(no_of_customers))
         self.events = event_list
-        self.cashier = [Cashier(x, event_list) for x in range(1, no_of_cashiers + 1)]
+        self.cashier = [Cashier(x, event_list, generator) for x in range(no_of_cashiers)]
+
         self.no_lost_customers = 0
+
+    def make_events(self, no_of_customers):
+        arrivals = []
+        T = 0
+        for i in range(no_of_customers):
+            arrivals.append(Event.create(float(T), EventType("arrive")))
+            T += self.generator.generate_inter_arrival_time()
+        return arrivals
 
     def find_first_idle_cash(self):
         for cash in self.cashier:
@@ -24,7 +37,7 @@ class Simulator:
         return None
 
     def direct_cust_to_cash(self, time, customer):
-        print(f"{time:5.3f} {customer.id:03} arrives")
+        print(f"{time:5.3f} C{customer.id} arrives")
         idle_cash = self.find_first_idle_cash()
         if idle_cash:
             idle_cash.serve_cust(time, customer)
@@ -41,9 +54,10 @@ class Simulator:
         while self.events.is_events_still_there():
             event = self.events.pop()
             if event.type is EventType.ARRIVE:
-                last_dispatched_id += 1
-                new_customer = Customer(event.time, last_dispatched_id)
+                service_time = self.generator.generate_service_time()
+                new_customer = Customer(event.time, last_dispatched_id, service_time)
                 self.direct_cust_to_cash(event.time, new_customer)
+                last_dispatched_id += 1
             else:
                 event.cashier.on_done(event.time)
         served_list = tuple(map(lambda x: x.num_served_customers, self.cashier))

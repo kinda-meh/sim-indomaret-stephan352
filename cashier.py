@@ -2,8 +2,7 @@ from event import Event, EventType
 
 
 class Cashier:
-    def __init__(self, id, event_list, service_time=1.0):
-        self.service_time = service_time
+    def __init__(self, id, event_list, generator):
         self.events = event_list
         self.id = id
 
@@ -24,10 +23,13 @@ class Cashier:
         self.events.push(event)
 
     def serve_cust(self, time, customer):
-        print(f"{time:5.3f} {customer.id:03} served by cashier {self.id}")
+        if self.customer_waiting:
+            print(f"{time:5.3f} C{customer.id} served by S{self.id} (Q: C{self.customer_waiting.id})")
+        else:
+            print(f"{time:5.3f} C{customer.id} served by S{self.id} (Q: null)")
         self.num_served_customers += 1
         self.customer_serving = customer
-        event = Event.create(float(time + self.service_time), EventType("done"))
+        event = Event.create(float(time + customer.get_serve_time()), EventType("done"))
         event.note_cashier(self)
         self.push_to_list(event)
 
@@ -36,7 +38,10 @@ class Cashier:
         self.customer_waiting = customer
 
     def on_done(self, time):
-        print(f"{time:5.3f} {self.customer_serving.id:03} done by cashier {self.id}")
+        if self.customer_waiting:
+            print(f"{time:5.3f} C{self.customer_serving.id} done served by S{self.id} (Q: C{self.customer_waiting.id})")
+        else:
+            print(f"{time:5.3f} C{self.customer_serving.id} done served by S{self.id} (Q: null)")
         self.customer_serving = None
         if self.customer_waiting is not None:
             self.serve_waiting(time)
@@ -44,5 +49,4 @@ class Cashier:
     def serve_waiting(self, time):
         customer, self.customer_waiting = self.customer_waiting, None
         self.total_waiting_time += time - customer.arrival_time
-        print(f"{time:5.3f} {customer.id:03} done waiting for cashier {self.id}")
         self.serve_cust(time, customer)
