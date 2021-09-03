@@ -6,7 +6,7 @@ class EventList:
         heapq.heapify(arrivals)
         self.events = arrivals
 
-    def is_events_still_there(self):
+    def get_events(self):
         return self.events
 
     def push(self, event):

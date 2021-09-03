@@ -11,7 +11,7 @@ class Simulator:
 
         event_list = EventList(self.make_events(no_of_customers))
         self.events = event_list
-        self.cashier = [Cashier(x, event_list) for x in range(no_of_cashiers)]
+        self.cashiers = [Cashier(c, event_list) for c in range(no_of_cashiers)]
 
         self.no_lost_customers = 0
 
@@ -24,13 +24,13 @@ class Simulator:
         return arrivals
 
     def find_first_idle_cash(self):
-        for cash in self.cashier:
+        for cash in self.cashiers:
             if not cash.get_cust_serving():
                 return cash
         return None
 
-    def find_first_no_wait(self):
-        for cash in self.cashier:
+    def find_first_no_queue(self):
+        for cash in self.cashiers:
             if not cash.get_cust_waiting():
                 return cash
         return None
@@ -41,7 +41,7 @@ class Simulator:
         if idle_cash:
             idle_cash.serve_cust(time, customer)
             return None
-        nowait_cash = self.find_first_no_wait()
+        nowait_cash = self.find_first_no_queue()
         if nowait_cash:
             nowait_cash.make_cust_wait(time, customer)
         else:
@@ -50,7 +50,7 @@ class Simulator:
 
     def run(self):
         last_dispatched_id = 0
-        while self.events.is_events_still_there():
+        while self.events.get_events():
             event = self.events.pop()
             if event.type is EventType.ARRIVE:
                 service_time = self.generator.generate_service_time()
@@ -59,13 +59,8 @@ class Simulator:
                 last_dispatched_id += 1
             else:
                 event.cashier.on_done(event.time)
-        served_list = tuple(map(lambda x: x.num_served_customers, self.cashier))
-        served = sum(served_list)
-        waiting_times = tuple(map(lambda x: x.total_waiting_time, self.cashier))
-        total_wait_time = sum(waiting_times)
+        served = sum(c.num_served_customers for c in self.cashiers)
+        total_wait_time = sum(c.total_waiting_time for c in self.cashiers)
         lost = self.no_lost_customers
-        try:
-            ave_waiting_time = total_wait_time / served
-        except ZeroDivisionError:
-            ave_waiting_time = 0
+        ave_waiting_time = total_wait_time / served if served > 0 else 0
         return ave_waiting_time, served, lost

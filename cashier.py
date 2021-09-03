@@ -11,7 +11,6 @@ class Cashier:
 
         self.total_waiting_time = 0
         self.num_served_customers = 0
-        self.num_lost_customers = 0
 
     def get_cust_serving(self):
         return self.customer_serving
@@ -19,7 +18,7 @@ class Cashier:
     def get_cust_waiting(self):
         return self.customer_waiting
 
-    def push_to_list(self, event):
+    def push_event(self, event):
         self.events.push(event)
 
     def serve_cust(self, time, customer):
@@ -31,7 +30,7 @@ class Cashier:
         self.customer_serving = customer
         event = Event.create(float(time + customer.get_serve_time()), EventType("done"))
         event.note_cashier(self)
-        self.push_to_list(event)
+        self.push_event(event)
 
     def make_cust_wait(self, time, customer):
         customer.wait(time, self.id)
