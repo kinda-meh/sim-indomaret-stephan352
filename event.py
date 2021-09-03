@@ -2,9 +2,8 @@ from enum import Enum
 
 
 class Event:
-    def __init__(self, time, event_type):
+    def __init__(self, time):
         self.time = time
-        self.type = event_type
 
     def __lt__(self, other):
         if self.time == other.time:
@@ -21,15 +20,21 @@ class EventType(Enum):
 
 
 class ArrivalEvent(Event):
+    def __init__(self, time):
+        super().__init__(time)
+        self.type = EventType("arrive")
+
     @staticmethod
-    def create(time, event_type):
-        return ArrivalEvent(time, event_type)
+    def create(time):
+        return ArrivalEvent(time)
+
 
 class DoneEvent(Event):
-    def __init__(self, time, event_type, cashier):
-        super().__init__(time, event_type)
+    def __init__(self, time, cashier):
+        super().__init__(time)
+        self.type = EventType("done")
         self.cashier = cashier
 
     @staticmethod
-    def create(time, event_type, cashier):
-        return DoneEvent(time, event_type, cashier)
+    def create(time, cashier):
+        return DoneEvent(time, cashier)

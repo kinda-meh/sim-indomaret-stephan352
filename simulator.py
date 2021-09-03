@@ -19,7 +19,7 @@ class Simulator:
         arrivals = []
         T = 0
         for i in range(no_of_customers):
-            arrivals.append(ArrivalEvent.create(float(T), EventType("arrive")))
+            arrivals.append(ArrivalEvent.create(float(T)))
             T += self.generator.generate_inter_arrival_time()
         return arrivals
 
