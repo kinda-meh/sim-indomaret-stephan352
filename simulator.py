@@ -7,16 +7,16 @@ from rng import RandomGenerator
 
 class Simulator:
     def __init__(self, seed, no_of_cashiers, no_of_customers, arrival_constant, service_constant):
-        generator_arrival = RandomGenerator(seed, arrival_constant, service_constant)
-        generator_done = RandomGenerator(seed, arrival_constant, service_constant)
+        generator = RandomGenerator(seed, arrival_constant, service_constant)
+        self.generator = generator
 
-        event_list = EventList(self.make_events(generator_arrival, no_of_customers))
+        event_list = EventList(self.make_events(generator, no_of_customers))  # fix this
         self.events = event_list
-        self.cashier = [Cashier(x, event_list, generator_done) for x in range(no_of_cashiers)]
+        self.cashier = [Cashier(x, event_list, generator) for x in range(no_of_cashiers)]
 
         self.no_lost_customers = 0
 
-    def make_events(self, generator, no_of_customers):
+    def make_events(self, generator, no_of_customers): # fix this and fix generator ownership
         arrivals = []
         T = 0
         for i in range(no_of_customers):
@@ -54,7 +54,8 @@ class Simulator:
         while self.events.is_events_still_there():
             event = self.events.pop()
             if event.type is EventType.ARRIVE:
-                new_customer = Customer(event.time, last_dispatched_id)
+                service_time = self.generator.generate_service_time()
+                new_customer = Customer(event.time, last_dispatched_id, service_time)
                 self.direct_cust_to_cash(event.time, new_customer)
                 last_dispatched_id += 1
             else:
