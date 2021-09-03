@@ -1,4 +1,4 @@
-from event import Event, EventType, DoneEvent
+from event import DoneEvent
 
 
 class Cashier:
