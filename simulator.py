@@ -1,4 +1,4 @@
-from event import EventType, Event
+from event import EventType, ArrivalEvent
 from cashier import Cashier
 from customer import Customer
 from eventlst import EventList
@@ -19,7 +19,7 @@ class Simulator:
         arrivals = []
         T = 0
         for i in range(no_of_customers):
-            arrivals.append(Event.create(float(T), EventType("arrive")))
+            arrivals.append(ArrivalEvent.create(float(T)))
             T += self.generator.generate_inter_arrival_time()
         return arrivals
 
