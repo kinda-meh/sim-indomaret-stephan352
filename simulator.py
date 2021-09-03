@@ -10,18 +10,18 @@ class Simulator:
         generator = RandomGenerator(seed, arrival_constant, service_constant)
         self.generator = generator
 
-        event_list = EventList(self.make_events(generator, no_of_customers))  # fix this
+        event_list = EventList(self.make_events(no_of_customers))
         self.events = event_list
         self.cashier = [Cashier(x, event_list, generator) for x in range(no_of_cashiers)]
 
         self.no_lost_customers = 0
 
-    def make_events(self, generator, no_of_customers): # fix this and fix generator ownership
+    def make_events(self, no_of_customers):
         arrivals = []
         T = 0
         for i in range(no_of_customers):
             arrivals.append(Event.create(float(T), EventType("arrive")))
-            T += generator.generate_inter_arrival_time()
+            T += self.generator.generate_inter_arrival_time()
         return arrivals
 
     def find_first_idle_cash(self):
