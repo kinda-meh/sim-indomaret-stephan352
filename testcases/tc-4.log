@@ -1,0 +1,3134 @@
+ 0.000 C0 arrives
+ 0.000 C0 served by S0 (Q: null)
+ 0.314 C1 arrives
+ 0.314 C1 served by S1 (Q: null)
+ 1.055 C1 done served by S1 (Q: null)
+ 1.205 C2 arrives
+ 1.205 C2 served by S1 (Q: null)
+ 2.237 C0 done served by S0 (Q: null)
+ 2.776 C3 arrives
+ 2.776 C3 served by S0 (Q: null)
+ 2.878 C3 done served by S0 (Q: null)
+ 3.877 C4 arrives
+ 3.877 C4 served by S0 (Q: null)
+ 3.910 C5 arrives
+ 3.910 C5 served by S2 (Q: null)
+ 4.000 C5 done served by S2 (Q: null)
+ 4.978 C4 done served by S0 (Q: null)
+ 6.201 C2 done served by S1 (Q: null)
+ 9.006 C6 arrives
+ 9.006 C6 served by S0 (Q: null)
+ 9.043 C7 arrives
+ 9.043 C7 served by S1 (Q: null)
+ 9.105 C8 arrives
+ 9.105 C8 served by S2 (Q: null)
+ 9.160 C9 arrives
+ 9.160 C9 served by S3 (Q: null)
+ 9.225 C10 arrives
+ 9.225 C10 served by S4 (Q: null)
+ 9.529 C9 done served by S3 (Q: null)
+10.148 C11 arrives
+10.148 C11 served by S3 (Q: null)
+11.205 C12 arrives
+11.205 C12 waits for S0 (Q: C12)
+11.226 C8 done served by S2 (Q: null)
+12.429 C13 arrives
+12.429 C13 served by S2 (Q: null)
+12.781 C11 done served by S3 (Q: null)
+13.109 C14 arrives
+13.109 C14 served by S3 (Q: null)
+15.264 C15 arrives
+15.264 C15 waits for S1 (Q: C15)
+15.524 C16 arrives
+15.524 C16 waits for S2 (Q: C16)
+15.940 C17 arrives
+15.940 C17 waits for S3 (Q: C17)
+17.793 C18 arrives
+17.793 C18 waits for S4 (Q: C18)
+18.765 C19 arrives
+18.765 C19 leaves
+19.508 C14 done served by S3 (Q: C17)
+19.508 C17 served by S3 (Q: null)
+19.562 C6 done served by S0 (Q: C12)
+19.562 C12 served by S0 (Q: null)
+20.708 C12 done served by S0 (Q: null)
+20.733 C20 arrives
+20.733 C20 served by S0 (Q: null)
+21.097 C21 arrives
+21.097 C21 waits for S0 (Q: C21)
+21.314 C22 arrives
+21.314 C22 waits for S3 (Q: C22)
+23.624 C17 done served by S3 (Q: C22)
+23.624 C22 served by S3 (Q: null)
+24.596 C20 done served by S0 (Q: C21)
+24.596 C21 served by S0 (Q: null)
+25.747 C21 done served by S0 (Q: null)
+26.607 C23 arrives
+26.607 C23 served by S0 (Q: null)
+27.255 C24 arrives
+27.255 C24 waits for S0 (Q: C24)
+27.551 C25 arrives
+27.551 C25 waits for S3 (Q: C25)
+27.565 C7 done served by S1 (Q: C15)
+27.565 C15 served by S1 (Q: null)
+29.502 C26 arrives
+29.502 C26 waits for S1 (Q: C26)
+30.233 C27 arrives
+30.233 C27 leaves
+30.841 C28 arrives
+30.841 C28 leaves
+31.390 C29 arrives
+31.390 C29 leaves
+32.923 C13 done served by S2 (Q: C16)
+32.923 C16 served by S2 (Q: null)
+32.968 C16 done served by S2 (Q: null)
+32.976 C30 arrives
+32.976 C30 served by S2 (Q: null)
+33.448 C31 arrives
+33.448 C31 waits for S2 (Q: C31)
+34.150 C10 done served by S4 (Q: C18)
+34.150 C18 served by S4 (Q: null)
+34.163 C22 done served by S3 (Q: C25)
+34.163 C25 served by S3 (Q: null)
+35.015 C15 done served by S1 (Q: C26)
+35.015 C26 served by S1 (Q: null)
+35.137 C32 arrives
+35.137 C32 waits for S1 (Q: C32)
+35.636 C30 done served by S2 (Q: C31)
+35.636 C31 served by S2 (Q: null)
+37.251 C31 done served by S2 (Q: null)
+38.468 C26 done served by S1 (Q: C32)
+38.468 C32 served by S1 (Q: null)
+39.453 C18 done served by S4 (Q: null)
+39.676 C33 arrives
+39.676 C33 served by S2 (Q: null)
+40.008 C23 done served by S0 (Q: C24)
+40.008 C24 served by S0 (Q: null)
+40.270 C24 done served by S0 (Q: null)
+41.502 C34 arrives
+41.502 C34 served by S0 (Q: null)
+43.228 C35 arrives
+43.228 C35 served by S4 (Q: null)
+43.726 C35 done served by S4 (Q: null)
+43.843 C36 arrives
+43.843 C36 served by S4 (Q: null)
+43.870 C37 arrives
+43.870 C37 waits for S0 (Q: C37)
+44.580 C25 done served by S3 (Q: null)
+45.275 C38 arrives
+45.275 C38 served by S3 (Q: null)
+46.205 C39 arrives
+46.205 C39 waits for S1 (Q: C39)
+47.730 C40 arrives
+47.730 C40 waits for S2 (Q: C40)
+48.569 C41 arrives
+48.569 C41 waits for S3 (Q: C41)
+50.025 C42 arrives
+50.025 C42 waits for S4 (Q: C42)
+50.142 C43 arrives
+50.142 C43 leaves
+53.280 C36 done served by S4 (Q: C42)
+53.280 C42 served by S4 (Q: null)
+53.395 C32 done served by S1 (Q: C39)
+53.395 C39 served by S1 (Q: null)
+53.403 C44 arrives
+53.403 C44 waits for S1 (Q: C44)
+53.927 C45 arrives
+53.927 C45 waits for S4 (Q: C45)
+54.350 C46 arrives
+54.350 C46 leaves
+55.602 C33 done served by S2 (Q: C40)
+55.602 C40 served by S2 (Q: null)
+55.858 C38 done served by S3 (Q: C41)
+55.858 C41 served by S3 (Q: null)
+56.471 C47 arrives
+56.471 C47 waits for S2 (Q: C47)
+56.898 C48 arrives
+56.898 C48 waits for S3 (Q: C48)
+56.914 C49 arrives
+56.914 C49 leaves
+58.491 C50 arrives
+58.491 C50 leaves
+59.472 C51 arrives
+59.472 C51 leaves
+60.242 C52 arrives
+60.242 C52 leaves
+61.339 C53 arrives
+61.339 C53 leaves
+62.153 C54 arrives
+62.153 C54 leaves
+62.838 C55 arrives
+62.838 C55 leaves
+62.839 C56 arrives
+62.839 C56 leaves
+63.300 C57 arrives
+63.300 C57 leaves
+63.395 C58 arrives
+63.395 C58 leaves
+64.073 C59 arrives
+64.073 C59 leaves
+64.783 C60 arrives
+64.783 C60 leaves
+65.630 C61 arrives
+65.630 C61 leaves
+65.920 C34 done served by S0 (Q: C37)
+65.920 C37 served by S0 (Q: null)
+66.808 C62 arrives
+66.808 C62 waits for S0 (Q: C62)
+67.140 C63 arrives
+67.140 C63 leaves
+67.178 C64 arrives
+67.178 C64 leaves
+67.294 C39 done served by S1 (Q: C44)
+67.294 C44 served by S1 (Q: null)
+68.741 C65 arrives
+68.741 C65 waits for S1 (Q: C65)
+70.133 C37 done served by S0 (Q: C62)
+70.133 C62 served by S0 (Q: null)
+70.380 C41 done served by S3 (Q: C48)
+70.380 C48 served by S3 (Q: null)
+70.498 C66 arrives
+70.498 C66 waits for S0 (Q: C66)
+71.097 C67 arrives
+71.097 C67 waits for S3 (Q: C67)
+71.685 C68 arrives
+71.685 C68 leaves
+72.217 C69 arrives
+72.217 C69 leaves
+72.454 C70 arrives
+72.454 C70 leaves
+72.718 C44 done served by S1 (Q: C65)
+72.718 C65 served by S1 (Q: null)
+72.812 C71 arrives
+72.812 C71 waits for S1 (Q: C71)
+73.627 C42 done served by S4 (Q: C45)
+73.627 C45 served by S4 (Q: null)
+73.812 C62 done served by S0 (Q: C66)
+73.812 C66 served by S0 (Q: null)
+74.398 C72 arrives
+74.398 C72 waits for S0 (Q: C72)
+75.765 C73 arrives
+75.765 C73 waits for S4 (Q: C73)
+76.016 C74 arrives
+76.016 C74 leaves
+76.911 C40 done served by S2 (Q: C47)
+76.911 C47 served by S2 (Q: null)
+77.508 C75 arrives
+77.508 C75 waits for S2 (Q: C75)
+77.525 C76 arrives
+77.525 C76 leaves
+77.743 C77 arrives
+77.743 C77 leaves
+77.922 C78 arrives
+77.922 C78 leaves
+77.975 C48 done served by S3 (Q: C67)
+77.975 C67 served by S3 (Q: null)
+78.760 C47 done served by S2 (Q: C75)
+78.760 C75 served by S2 (Q: null)
+79.129 C75 done served by S2 (Q: null)
+79.350 C66 done served by S0 (Q: C72)
+79.350 C72 served by S0 (Q: null)
+79.735 C79 arrives
+79.735 C79 served by S2 (Q: null)
+80.186 C80 arrives
+80.186 C80 waits for S0 (Q: C80)
+81.846 C72 done served by S0 (Q: C80)
+81.846 C80 served by S0 (Q: null)
+82.520 C80 done served by S0 (Q: null)
+83.441 C45 done served by S4 (Q: C73)
+83.441 C73 served by S4 (Q: null)
+84.618 C67 done served by S3 (Q: null)
+84.808 C79 done served by S2 (Q: null)
+84.923 C81 arrives
+84.923 C81 served by S0 (Q: null)
+85.383 C82 arrives
+85.383 C82 served by S2 (Q: null)
+86.954 C83 arrives
+86.954 C83 served by S3 (Q: null)
+87.081 C84 arrives
+87.081 C84 waits for S0 (Q: C84)
+87.428 C85 arrives
+87.428 C85 waits for S2 (Q: C85)
+87.531 C82 done served by S2 (Q: C85)
+87.531 C85 served by S2 (Q: null)
+87.752 C86 arrives
+87.752 C86 waits for S2 (Q: C86)
+87.956 C73 done served by S4 (Q: null)
+88.426 C87 arrives
+88.426 C87 served by S4 (Q: null)
+88.439 C88 arrives
+88.439 C88 waits for S3 (Q: C88)
+89.006 C85 done served by S2 (Q: C86)
+89.006 C86 served by S2 (Q: null)
+90.315 C89 arrives
+90.315 C89 waits for S2 (Q: C89)
+90.656 C90 arrives
+90.656 C90 waits for S4 (Q: C90)
+90.850 C91 arrives
+90.850 C91 leaves
+92.940 C92 arrives
+92.940 C92 leaves
+93.423 C93 arrives
+93.423 C93 leaves
+93.514 C86 done served by S2 (Q: C89)
+93.514 C89 served by S2 (Q: null)
+93.953 C81 done served by S0 (Q: C84)
+93.953 C84 served by S0 (Q: null)
+94.153 C94 arrives
+94.153 C94 waits for S0 (Q: C94)
+95.539 C65 done served by S1 (Q: C71)
+95.539 C71 served by S1 (Q: null)
+96.311 C83 done served by S3 (Q: C88)
+96.311 C88 served by S3 (Q: null)
+96.458 C95 arrives
+96.458 C95 waits for S1 (Q: C95)
+96.941 C96 arrives
+96.941 C96 waits for S2 (Q: C96)
+97.058 C84 done served by S0 (Q: C94)
+97.058 C94 served by S0 (Q: null)
+97.763 C71 done served by S1 (Q: C95)
+97.763 C95 served by S1 (Q: null)
+98.522 C95 done served by S1 (Q: null)
+99.758 C88 done served by S3 (Q: null)
+100.512 C97 arrives
+100.512 C97 served by S1 (Q: null)
+101.037 C98 arrives
+101.037 C98 served by S3 (Q: null)
+101.641 C94 done served by S0 (Q: null)
+103.654 C99 arrives
+103.654 C99 served by S0 (Q: null)
+106.018 C89 done served by S2 (Q: C96)
+106.018 C96 served by S2 (Q: null)
+106.257 C100 arrives
+106.257 C100 waits for S0 (Q: C100)
+106.643 C101 arrives
+106.643 C101 waits for S1 (Q: C101)
+106.900 C96 done served by S2 (Q: null)
+107.916 C102 arrives
+107.916 C102 served by S2 (Q: null)
+108.061 C98 done served by S3 (Q: null)
+108.420 C103 arrives
+108.420 C103 served by S3 (Q: null)
+108.583 C104 arrives
+108.583 C104 waits for S2 (Q: C104)
+108.637 C102 done served by S2 (Q: C104)
+108.637 C104 served by S2 (Q: null)
+108.935 C97 done served by S1 (Q: C101)
+108.935 C101 served by S1 (Q: null)
+109.622 C105 arrives
+109.622 C105 waits for S1 (Q: C105)
+109.906 C101 done served by S1 (Q: C105)
+109.906 C105 served by S1 (Q: null)
+109.954 C99 done served by S0 (Q: C100)
+109.954 C100 served by S0 (Q: null)
+110.135 C106 arrives
+110.135 C106 waits for S0 (Q: C106)
+110.612 C105 done served by S1 (Q: null)
+111.366 C107 arrives
+111.366 C107 served by S1 (Q: null)
+111.498 C108 arrives
+111.498 C108 waits for S1 (Q: C108)
+111.793 C109 arrives
+111.793 C109 waits for S2 (Q: C109)
+112.008 C87 done served by S4 (Q: C90)
+112.008 C90 served by S4 (Q: null)
+112.112 C100 done served by S0 (Q: C106)
+112.112 C106 served by S0 (Q: null)
+112.653 C110 arrives
+112.653 C110 waits for S0 (Q: C110)
+113.632 C111 arrives
+113.632 C111 waits for S3 (Q: C111)
+114.936 C112 arrives
+114.936 C112 waits for S4 (Q: C112)
+115.169 C106 done served by S0 (Q: C110)
+115.169 C110 served by S0 (Q: null)
+115.251 C113 arrives
+115.251 C113 waits for S0 (Q: C113)
+115.293 C110 done served by S0 (Q: C113)
+115.293 C113 served by S0 (Q: null)
+115.371 C114 arrives
+115.371 C114 waits for S0 (Q: C114)
+116.615 C104 done served by S2 (Q: C109)
+116.615 C109 served by S2 (Q: null)
+117.799 C103 done served by S3 (Q: C111)
+117.799 C111 served by S3 (Q: null)
+118.093 C111 done served by S3 (Q: null)
+118.502 C115 arrives
+118.502 C115 served by S3 (Q: null)
+118.666 C115 done served by S3 (Q: null)
+119.283 C116 arrives
+119.283 C116 served by S3 (Q: null)
+119.431 C117 arrives
+119.431 C117 waits for S2 (Q: C117)
+119.534 C118 arrives
+119.534 C118 waits for S3 (Q: C118)
+122.307 C119 arrives
+122.307 C119 leaves
+122.577 C120 arrives
+122.577 C120 leaves
+123.402 C116 done served by S3 (Q: C118)
+123.402 C118 served by S3 (Q: null)
+123.426 C121 arrives
+123.426 C121 waits for S3 (Q: C121)
+123.427 C122 arrives
+123.427 C122 leaves
+124.739 C109 done served by S2 (Q: C117)
+124.739 C117 served by S2 (Q: null)
+126.209 C123 arrives
+126.209 C123 waits for S2 (Q: C123)
+126.743 C124 arrives
+126.743 C124 leaves
+127.310 C125 arrives
+127.310 C125 leaves
+127.722 C126 arrives
+127.722 C126 leaves
+127.820 C127 arrives
+127.820 C127 leaves
+127.874 C90 done served by S4 (Q: C112)
+127.874 C112 served by S4 (Q: null)
+129.220 C128 arrives
+129.220 C128 waits for S4 (Q: C128)
+130.466 C107 done served by S1 (Q: C108)
+130.466 C108 served by S1 (Q: null)
+130.612 C129 arrives
+130.612 C129 waits for S1 (Q: C129)
+130.959 C130 arrives
+130.959 C130 leaves
+132.045 C131 arrives
+132.045 C131 leaves
+132.117 C112 done served by S4 (Q: C128)
+132.117 C128 served by S4 (Q: null)
+132.543 C132 arrives
+132.543 C132 waits for S4 (Q: C132)
+133.697 C133 arrives
+133.697 C133 leaves
+134.393 C117 done served by S2 (Q: C123)
+134.393 C123 served by S2 (Q: null)
+137.408 C134 arrives
+137.408 C134 waits for S2 (Q: C134)
+138.204 C135 arrives
+138.204 C135 leaves
+138.443 C123 done served by S2 (Q: C134)
+138.443 C134 served by S2 (Q: null)
+138.499 C134 done served by S2 (Q: null)
+139.200 C136 arrives
+139.200 C136 served by S2 (Q: null)
+139.741 C128 done served by S4 (Q: C132)
+139.741 C132 served by S4 (Q: null)
+139.812 C118 done served by S3 (Q: C121)
+139.812 C121 served by S3 (Q: null)
+139.969 C137 arrives
+139.969 C137 waits for S2 (Q: C137)
+141.135 C132 done served by S4 (Q: null)
+141.387 C108 done served by S1 (Q: C129)
+141.387 C129 served by S1 (Q: null)
+141.699 C138 arrives
+141.699 C138 served by S4 (Q: null)
+142.090 C139 arrives
+142.090 C139 waits for S1 (Q: C139)
+142.425 C140 arrives
+142.425 C140 waits for S3 (Q: C140)
+142.721 C141 arrives
+142.721 C141 waits for S4 (Q: C141)
+142.795 C142 arrives
+142.795 C142 leaves
+142.820 C113 done served by S0 (Q: C114)
+142.820 C114 served by S0 (Q: null)
+143.323 C143 arrives
+143.323 C143 waits for S0 (Q: C143)
+143.763 C144 arrives
+143.763 C144 leaves
+144.271 C129 done served by S1 (Q: C139)
+144.271 C139 served by S1 (Q: null)
+145.966 C145 arrives
+145.966 C145 waits for S1 (Q: C145)
+146.221 C146 arrives
+146.221 C146 leaves
+146.576 C114 done served by S0 (Q: C143)
+146.576 C143 served by S0 (Q: null)
+146.731 C139 done served by S1 (Q: C145)
+146.731 C145 served by S1 (Q: null)
+147.264 C136 done served by S2 (Q: C137)
+147.264 C137 served by S2 (Q: null)
+147.404 C147 arrives
+147.404 C147 waits for S0 (Q: C147)
+147.531 C148 arrives
+147.531 C148 waits for S1 (Q: C148)
+147.992 C149 arrives
+147.992 C149 waits for S2 (Q: C149)
+148.066 C150 arrives
+148.066 C150 leaves
+149.692 C151 arrives
+149.692 C151 leaves
+149.974 C152 arrives
+149.974 C152 leaves
+150.534 C121 done served by S3 (Q: C140)
+150.534 C140 served by S3 (Q: null)
+151.644 C145 done served by S1 (Q: C148)
+151.644 C148 served by S1 (Q: null)
+151.821 C153 arrives
+151.821 C153 waits for S1 (Q: C153)
+154.987 C154 arrives
+154.987 C154 waits for S3 (Q: C154)
+155.773 C148 done served by S1 (Q: C153)
+155.773 C153 served by S1 (Q: null)
+155.958 C155 arrives
+155.958 C155 waits for S1 (Q: C155)
+156.198 C156 arrives
+156.198 C156 leaves
+156.510 C143 done served by S0 (Q: C147)
+156.510 C147 served by S0 (Q: null)
+156.537 C157 arrives
+156.537 C157 waits for S0 (Q: C157)
+158.205 C137 done served by S2 (Q: C149)
+158.205 C149 served by S2 (Q: null)
+158.742 C158 arrives
+158.742 C158 waits for S2 (Q: C158)
+158.845 C140 done served by S3 (Q: C154)
+158.845 C154 served by S3 (Q: null)
+159.013 C159 arrives
+159.013 C159 waits for S3 (Q: C159)
+160.311 C149 done served by S2 (Q: C158)
+160.311 C158 served by S2 (Q: null)
+162.355 C158 done served by S2 (Q: null)
+162.518 C160 arrives
+162.518 C160 served by S2 (Q: null)
+163.568 C154 done served by S3 (Q: C159)
+163.568 C159 served by S3 (Q: null)
+163.668 C161 arrives
+163.668 C161 waits for S2 (Q: C161)
+164.072 C162 arrives
+164.072 C162 waits for S3 (Q: C162)
+164.925 C163 arrives
+164.925 C163 leaves
+165.840 C164 arrives
+165.840 C164 leaves
+165.875 C160 done served by S2 (Q: C161)
+165.875 C161 served by S2 (Q: null)
+166.136 C165 arrives
+166.136 C165 waits for S2 (Q: C165)
+167.143 C166 arrives
+167.143 C166 leaves
+167.412 C167 arrives
+167.412 C167 leaves
+168.543 C168 arrives
+168.543 C168 leaves
+169.211 C169 arrives
+169.211 C169 leaves
+169.948 C170 arrives
+169.948 C170 leaves
+170.784 C153 done served by S1 (Q: C155)
+170.784 C155 served by S1 (Q: null)
+171.575 C138 done served by S4 (Q: C141)
+171.575 C141 served by S4 (Q: null)
+171.979 C171 arrives
+171.979 C171 waits for S1 (Q: C171)
+173.528 C161 done served by S2 (Q: C165)
+173.528 C165 served by S2 (Q: null)
+175.428 C172 arrives
+175.428 C172 waits for S2 (Q: C172)
+176.239 C173 arrives
+176.239 C173 waits for S4 (Q: C173)
+176.607 C174 arrives
+176.607 C174 leaves
+176.937 C175 arrives
+176.937 C175 leaves
+177.188 C176 arrives
+177.188 C176 leaves
+178.433 C177 arrives
+178.433 C177 leaves
+178.630 C165 done served by S2 (Q: C172)
+178.630 C172 served by S2 (Q: null)
+178.680 C178 arrives
+178.680 C178 waits for S2 (Q: C178)
+178.714 C179 arrives
+178.714 C179 leaves
+178.717 C180 arrives
+178.717 C180 leaves
+179.145 C172 done served by S2 (Q: C178)
+179.145 C178 served by S2 (Q: null)
+179.977 C178 done served by S2 (Q: null)
+180.148 C181 arrives
+180.148 C181 served by S2 (Q: null)
+180.957 C182 arrives
+180.957 C182 waits for S2 (Q: C182)
+181.585 C155 done served by S1 (Q: C171)
+181.585 C171 served by S1 (Q: null)
+181.643 C159 done served by S3 (Q: C162)
+181.643 C162 served by S3 (Q: null)
+182.996 C183 arrives
+182.996 C183 waits for S1 (Q: C183)
+183.648 C171 done served by S1 (Q: C183)
+183.648 C183 served by S1 (Q: null)
+183.688 C162 done served by S3 (Q: null)
+184.005 C183 done served by S1 (Q: null)
+184.446 C184 arrives
+184.446 C184 served by S1 (Q: null)
+184.868 C185 arrives
+184.868 C185 served by S3 (Q: null)
+185.426 C186 arrives
+185.426 C186 waits for S1 (Q: C186)
+186.006 C147 done served by S0 (Q: C157)
+186.006 C157 served by S0 (Q: null)
+186.013 C187 arrives
+186.013 C187 waits for S0 (Q: C187)
+187.398 C188 arrives
+187.398 C188 waits for S3 (Q: C188)
+187.481 C189 arrives
+187.481 C189 leaves
+187.805 C190 arrives
+187.805 C190 leaves
+188.057 C191 arrives
+188.057 C191 leaves
+188.710 C181 done served by S2 (Q: C182)
+188.710 C182 served by S2 (Q: null)
+188.838 C157 done served by S0 (Q: C187)
+188.838 C187 served by S0 (Q: null)
+189.415 C184 done served by S1 (Q: C186)
+189.415 C186 served by S1 (Q: null)
+189.475 C192 arrives
+189.475 C192 waits for S0 (Q: C192)
+190.065 C141 done served by S4 (Q: C173)
+190.065 C173 served by S4 (Q: null)
+191.012 C186 done served by S1 (Q: null)
+191.214 C193 arrives
+191.214 C193 served by S1 (Q: null)
+192.024 C194 arrives
+192.024 C194 waits for S1 (Q: C194)
+192.210 C195 arrives
+192.210 C195 waits for S2 (Q: C195)
+192.718 C196 arrives
+192.718 C196 waits for S4 (Q: C196)
+193.168 C197 arrives
+193.168 C197 leaves
+194.360 C198 arrives
+194.360 C198 leaves
+194.934 C182 done served by S2 (Q: C195)
+194.934 C195 served by S2 (Q: null)
+195.248 C193 done served by S1 (Q: C194)
+195.248 C194 served by S1 (Q: null)
+195.834 C187 done served by S0 (Q: C192)
+195.834 C192 served by S0 (Q: null)
+196.193 C192 done served by S0 (Q: null)
+196.414 C195 done served by S2 (Q: null)
+197.088 C199 arrives
+197.088 C199 served by S0 (Q: null)
+197.152 C200 arrives
+197.152 C200 served by S2 (Q: null)
+198.474 C201 arrives
+198.474 C201 waits for S0 (Q: C201)
+199.948 C202 arrives
+199.948 C202 waits for S1 (Q: C202)
+201.138 C203 arrives
+201.138 C203 waits for S2 (Q: C203)
+202.127 C204 arrives
+202.127 C204 leaves
+202.282 C205 arrives
+202.282 C205 leaves
+202.496 C206 arrives
+202.496 C206 leaves
+203.312 C173 done served by S4 (Q: C196)
+203.312 C196 served by S4 (Q: null)
+203.441 C207 arrives
+203.441 C207 waits for S4 (Q: C207)
+204.397 C199 done served by S0 (Q: C201)
+204.397 C201 served by S0 (Q: null)
+204.467 C201 done served by S0 (Q: null)
+204.768 C208 arrives
+204.768 C208 served by S0 (Q: null)
+206.097 C208 done served by S0 (Q: null)
+208.080 C185 done served by S3 (Q: C188)
+208.080 C188 served by S3 (Q: null)
+208.198 C209 arrives
+208.198 C209 served by S0 (Q: null)
+208.599 C210 arrives
+208.599 C210 waits for S0 (Q: C210)
+208.603 C194 done served by S1 (Q: C202)
+208.603 C202 served by S1 (Q: null)
+211.198 C211 arrives
+211.198 C211 waits for S1 (Q: C211)
+211.213 C209 done served by S0 (Q: C210)
+211.213 C210 served by S0 (Q: null)
+211.694 C212 arrives
+211.694 C212 waits for S0 (Q: C212)
+213.416 C213 arrives
+213.416 C213 waits for S3 (Q: C213)
+214.704 C200 done served by S2 (Q: C203)
+214.704 C203 served by S2 (Q: null)
+216.935 C214 arrives
+216.935 C214 waits for S2 (Q: C214)
+217.280 C215 arrives
+217.280 C215 leaves
+217.517 C188 done served by S3 (Q: C213)
+217.517 C213 served by S3 (Q: null)
+217.880 C213 done served by S3 (Q: null)
+218.561 C216 arrives
+218.561 C216 served by S3 (Q: null)
+220.676 C210 done served by S0 (Q: C212)
+220.676 C212 served by S0 (Q: null)
+220.717 C217 arrives
+220.717 C217 waits for S0 (Q: C217)
+221.086 C218 arrives
+221.086 C218 waits for S3 (Q: C218)
+221.880 C196 done served by S4 (Q: C207)
+221.880 C207 served by S4 (Q: null)
+222.005 C202 done served by S1 (Q: C211)
+222.005 C211 served by S1 (Q: null)
+222.139 C219 arrives
+222.139 C219 waits for S1 (Q: C219)
+222.861 C203 done served by S2 (Q: C214)
+222.861 C214 served by S2 (Q: null)
+223.617 C220 arrives
+223.617 C220 waits for S2 (Q: C220)
+223.853 C214 done served by S2 (Q: C220)
+223.853 C220 served by S2 (Q: null)
+225.403 C221 arrives
+225.403 C221 waits for S2 (Q: C221)
+225.555 C220 done served by S2 (Q: C221)
+225.555 C221 served by S2 (Q: null)
+225.923 C222 arrives
+225.923 C222 waits for S2 (Q: C222)
+226.133 C223 arrives
+226.133 C223 waits for S4 (Q: C223)
+226.797 C224 arrives
+226.797 C224 leaves
+227.011 C221 done served by S2 (Q: C222)
+227.011 C222 served by S2 (Q: null)
+227.850 C225 arrives
+227.850 C225 waits for S2 (Q: C225)
+228.260 C216 done served by S3 (Q: C218)
+228.260 C218 served by S3 (Q: null)
+230.786 C226 arrives
+230.786 C226 waits for S3 (Q: C226)
+231.286 C227 arrives
+231.286 C227 leaves
+231.670 C228 arrives
+231.670 C228 leaves
+232.208 C229 arrives
+232.208 C229 leaves
+232.734 C222 done served by S2 (Q: C225)
+232.734 C225 served by S2 (Q: null)
+233.203 C230 arrives
+233.203 C230 waits for S2 (Q: C230)
+233.258 C231 arrives
+233.258 C231 leaves
+233.465 C207 done served by S4 (Q: C223)
+233.465 C223 served by S4 (Q: null)
+233.635 C232 arrives
+233.635 C232 waits for S4 (Q: C232)
+235.128 C233 arrives
+235.128 C233 leaves
+235.939 C234 arrives
+235.939 C234 leaves
+236.284 C235 arrives
+236.284 C235 leaves
+236.999 C212 done served by S0 (Q: C217)
+236.999 C217 served by S0 (Q: null)
+239.210 C225 done served by S2 (Q: C230)
+239.210 C230 served by S2 (Q: null)
+239.798 C236 arrives
+239.798 C236 waits for S0 (Q: C236)
+240.215 C237 arrives
+240.215 C237 waits for S2 (Q: C237)
+240.639 C211 done served by S1 (Q: C219)
+240.639 C219 served by S1 (Q: null)
+241.367 C238 arrives
+241.367 C238 waits for S1 (Q: C238)
+241.571 C239 arrives
+241.571 C239 leaves
+243.432 C240 arrives
+243.432 C240 leaves
+244.222 C241 arrives
+244.222 C241 leaves
+245.363 C242 arrives
+245.363 C242 leaves
+245.961 C243 arrives
+245.961 C243 leaves
+246.611 C244 arrives
+246.611 C244 leaves
+247.308 C217 done served by S0 (Q: C236)
+247.308 C236 served by S0 (Q: null)
+247.765 C245 arrives
+247.765 C245 waits for S0 (Q: C245)
+247.827 C230 done served by S2 (Q: C237)
+247.827 C237 served by S2 (Q: null)
+248.127 C246 arrives
+248.127 C246 waits for S2 (Q: C246)
+248.432 C219 done served by S1 (Q: C238)
+248.432 C238 served by S1 (Q: null)
+248.952 C218 done served by S3 (Q: C226)
+248.952 C226 served by S3 (Q: null)
+249.142 C223 done served by S4 (Q: C232)
+249.142 C232 served by S4 (Q: null)
+249.426 C238 done served by S1 (Q: null)
+250.016 C226 done served by S3 (Q: null)
+250.482 C247 arrives
+250.482 C247 served by S1 (Q: null)
+250.524 C248 arrives
+250.524 C248 served by S3 (Q: null)
+251.991 C247 done served by S1 (Q: null)
+252.567 C249 arrives
+252.567 C249 served by S1 (Q: null)
+256.314 C250 arrives
+256.314 C250 waits for S1 (Q: C250)
+258.782 C251 arrives
+258.782 C251 waits for S3 (Q: C251)
+258.865 C236 done served by S0 (Q: C245)
+258.865 C245 served by S0 (Q: null)
+260.541 C248 done served by S3 (Q: C251)
+260.541 C251 served by S3 (Q: null)
+261.733 C252 arrives
+261.733 C252 waits for S0 (Q: C252)
+262.488 C253 arrives
+262.488 C253 waits for S3 (Q: C253)
+262.686 C254 arrives
+262.686 C254 waits for S4 (Q: C254)
+262.718 C255 arrives
+262.718 C255 leaves
+263.768 C256 arrives
+263.768 C256 leaves
+264.682 C232 done served by S4 (Q: C254)
+264.682 C254 served by S4 (Q: null)
+265.066 C257 arrives
+265.066 C257 waits for S4 (Q: C257)
+265.342 C251 done served by S3 (Q: C253)
+265.342 C253 served by S3 (Q: null)
+266.605 C237 done served by S2 (Q: C246)
+266.605 C246 served by S2 (Q: null)
+268.645 C254 done served by S4 (Q: C257)
+268.645 C257 served by S4 (Q: null)
+269.247 C246 done served by S2 (Q: null)
+269.556 C258 arrives
+269.556 C258 served by S2 (Q: null)
+269.786 C259 arrives
+269.786 C259 waits for S2 (Q: C259)
+270.379 C257 done served by S4 (Q: null)
+271.767 C249 done served by S1 (Q: C250)
+271.767 C250 served by S1 (Q: null)
+271.771 C245 done served by S0 (Q: C252)
+271.771 C252 served by S0 (Q: null)
+272.085 C260 arrives
+272.085 C260 served by S4 (Q: null)
+272.285 C261 arrives
+272.285 C261 waits for S0 (Q: C261)
+272.575 C262 arrives
+272.575 C262 waits for S1 (Q: C262)
+273.543 C263 arrives
+273.543 C263 waits for S3 (Q: C263)
+274.163 C253 done served by S3 (Q: C263)
+274.163 C263 served by S3 (Q: null)
+275.772 C264 arrives
+275.772 C264 waits for S3 (Q: C264)
+275.787 C263 done served by S3 (Q: C264)
+275.787 C264 served by S3 (Q: null)
+276.038 C265 arrives
+276.038 C265 waits for S3 (Q: C265)
+276.241 C250 done served by S1 (Q: C262)
+276.241 C262 served by S1 (Q: null)
+276.417 C260 done served by S4 (Q: null)
+277.605 C266 arrives
+277.605 C266 served by S4 (Q: null)
+277.661 C267 arrives
+277.661 C267 waits for S1 (Q: C267)
+277.667 C262 done served by S1 (Q: C267)
+277.667 C267 served by S1 (Q: null)
+278.172 C266 done served by S4 (Q: null)
+279.780 C264 done served by S3 (Q: C265)
+279.780 C265 served by S3 (Q: null)
+280.200 C265 done served by S3 (Q: null)
+281.252 C268 arrives
+281.252 C268 served by S3 (Q: null)
+281.544 C269 arrives
+281.544 C269 served by S4 (Q: null)
+281.996 C270 arrives
+281.996 C270 waits for S1 (Q: C270)
+282.059 C271 arrives
+282.059 C271 waits for S3 (Q: C271)
+283.169 C268 done served by S3 (Q: C271)
+283.169 C271 served by S3 (Q: null)
+284.425 C272 arrives
+284.425 C272 waits for S3 (Q: C272)
+284.467 C273 arrives
+284.467 C273 waits for S4 (Q: C273)
+284.666 C274 arrives
+284.666 C274 leaves
+285.196 C269 done served by S4 (Q: C273)
+285.196 C273 served by S4 (Q: null)
+286.204 C275 arrives
+286.204 C275 waits for S4 (Q: C275)
+286.386 C276 arrives
+286.386 C276 leaves
+286.628 C252 done served by S0 (Q: C261)
+286.628 C261 served by S0 (Q: null)
+287.750 C277 arrives
+287.750 C277 waits for S0 (Q: C277)
+288.195 C278 arrives
+288.195 C278 leaves
+288.529 C279 arrives
+288.529 C279 leaves
+288.750 C280 arrives
+288.750 C280 leaves
+289.523 C281 arrives
+289.523 C281 leaves
+289.825 C261 done served by S0 (Q: C277)
+289.825 C277 served by S0 (Q: null)
+291.646 C282 arrives
+291.646 C282 waits for S0 (Q: C282)
+292.198 C273 done served by S4 (Q: C275)
+292.198 C275 served by S4 (Q: null)
+292.319 C283 arrives
+292.319 C283 waits for S4 (Q: C283)
+292.616 C284 arrives
+292.616 C284 leaves
+292.937 C258 done served by S2 (Q: C259)
+292.937 C259 served by S2 (Q: null)
+293.221 C275 done served by S4 (Q: C283)
+293.221 C283 served by S4 (Q: null)
+293.436 C267 done served by S1 (Q: C270)
+293.436 C270 served by S1 (Q: null)
+293.721 C277 done served by S0 (Q: C282)
+293.721 C282 served by S0 (Q: null)
+294.531 C270 done served by S1 (Q: null)
+295.107 C271 done served by S3 (Q: C272)
+295.107 C272 served by S3 (Q: null)
+295.483 C285 arrives
+295.483 C285 served by S1 (Q: null)
+296.063 C286 arrives
+296.063 C286 waits for S0 (Q: C286)
+297.063 C287 arrives
+297.063 C287 waits for S1 (Q: C287)
+297.188 C288 arrives
+297.188 C288 waits for S2 (Q: C288)
+297.316 C289 arrives
+297.316 C289 waits for S3 (Q: C289)
+299.686 C272 done served by S3 (Q: C289)
+299.686 C289 served by S3 (Q: null)
+300.121 C290 arrives
+300.121 C290 waits for S3 (Q: C290)
+300.330 C259 done served by S2 (Q: C288)
+300.330 C288 served by S2 (Q: null)
+301.030 C289 done served by S3 (Q: C290)
+301.030 C290 served by S3 (Q: null)
+301.865 C283 done served by S4 (Q: null)
+302.756 C291 arrives
+302.756 C291 served by S4 (Q: null)
+303.876 C291 done served by S4 (Q: null)
+304.229 C292 arrives
+304.229 C292 served by S4 (Q: null)
+305.731 C293 arrives
+305.731 C293 waits for S2 (Q: C293)
+306.169 C294 arrives
+306.169 C294 waits for S3 (Q: C294)
+307.347 C292 done served by S4 (Q: null)
+307.397 C295 arrives
+307.397 C295 served by S4 (Q: null)
+307.501 C295 done served by S4 (Q: null)
+307.518 C296 arrives
+307.518 C296 served by S4 (Q: null)
+308.126 C297 arrives
+308.126 C297 waits for S4 (Q: C297)
+308.148 C296 done served by S4 (Q: C297)
+308.148 C297 served by S4 (Q: null)
+308.309 C285 done served by S1 (Q: C287)
+308.309 C287 served by S1 (Q: null)
+308.408 C282 done served by S0 (Q: C286)
+308.408 C286 served by S0 (Q: null)
+308.480 C298 arrives
+308.480 C298 waits for S0 (Q: C298)
+308.629 C290 done served by S3 (Q: C294)
+308.629 C294 served by S3 (Q: null)
+309.348 C287 done served by S1 (Q: null)
+310.178 C299 arrives
+310.178 C299 served by S1 (Q: null)
+311.236 C300 arrives
+311.236 C300 waits for S1 (Q: C300)
+313.136 C299 done served by S1 (Q: C300)
+313.136 C300 served by S1 (Q: null)
+313.539 C286 done served by S0 (Q: C298)
+313.539 C298 served by S0 (Q: null)
+314.460 C301 arrives
+314.460 C301 waits for S0 (Q: C301)
+314.650 C297 done served by S4 (Q: null)
+315.594 C288 done served by S2 (Q: C293)
+315.594 C293 served by S2 (Q: null)
+315.849 C302 arrives
+315.849 C302 served by S4 (Q: null)
+316.076 C303 arrives
+316.076 C303 waits for S1 (Q: C303)
+316.422 C304 arrives
+316.422 C304 waits for S2 (Q: C304)
+317.185 C305 arrives
+317.185 C305 waits for S3 (Q: C305)
+317.404 C306 arrives
+317.404 C306 waits for S4 (Q: C306)
+319.110 C294 done served by S3 (Q: C305)
+319.110 C305 served by S3 (Q: null)
+319.904 C307 arrives
+319.904 C307 waits for S3 (Q: C307)
+320.639 C308 arrives
+320.639 C308 leaves
+320.678 C309 arrives
+320.678 C309 leaves
+320.882 C298 done served by S0 (Q: C301)
+320.882 C301 served by S0 (Q: null)
+322.114 C310 arrives
+322.114 C310 waits for S0 (Q: C310)
+322.175 C300 done served by S1 (Q: C303)
+322.175 C303 served by S1 (Q: null)
+322.905 C311 arrives
+322.905 C311 waits for S1 (Q: C311)
+323.637 C312 arrives
+323.637 C312 leaves
+326.359 C313 arrives
+326.359 C313 leaves
+327.467 C305 done served by S3 (Q: C307)
+327.467 C307 served by S3 (Q: null)
+327.610 C301 done served by S0 (Q: C310)
+327.610 C310 served by S0 (Q: null)
+327.914 C293 done served by S2 (Q: C304)
+327.914 C304 served by S2 (Q: null)
+328.577 C314 arrives
+328.577 C314 waits for S0 (Q: C314)
+328.690 C315 arrives
+328.690 C315 waits for S2 (Q: C315)
+328.835 C316 arrives
+328.835 C316 waits for S3 (Q: C316)
+329.060 C317 arrives
+329.060 C317 leaves
+329.713 C303 done served by S1 (Q: C311)
+329.713 C311 served by S1 (Q: null)
+330.110 C318 arrives
+330.110 C318 waits for S1 (Q: C318)
+330.684 C310 done served by S0 (Q: C314)
+330.684 C314 served by S0 (Q: null)
+331.272 C307 done served by S3 (Q: C316)
+331.272 C316 served by S3 (Q: null)
+331.335 C311 done served by S1 (Q: C318)
+331.335 C318 served by S1 (Q: null)
+332.151 C319 arrives
+332.151 C319 waits for S0 (Q: C319)
+332.265 C320 arrives
+332.265 C320 waits for S1 (Q: C320)
+333.104 C321 arrives
+333.104 C321 waits for S3 (Q: C321)
+333.797 C314 done served by S0 (Q: C319)
+333.797 C319 served by S0 (Q: null)
+335.146 C322 arrives
+335.146 C322 waits for S0 (Q: C322)
+335.547 C323 arrives
+335.547 C323 leaves
+336.205 C324 arrives
+336.205 C324 leaves
+336.795 C325 arrives
+336.795 C325 leaves
+336.882 C326 arrives
+336.882 C326 leaves
+337.848 C327 arrives
+337.848 C327 leaves
+338.285 C318 done served by S1 (Q: C320)
+338.285 C320 served by S1 (Q: null)
+339.146 C304 done served by S2 (Q: C315)
+339.146 C315 served by S2 (Q: null)
+339.588 C302 done served by S4 (Q: C306)
+339.588 C306 served by S4 (Q: null)
+339.606 C328 arrives
+339.606 C328 waits for S1 (Q: C328)
+341.621 C329 arrives
+341.621 C329 waits for S2 (Q: C329)
+341.915 C319 done served by S0 (Q: C322)
+341.915 C322 served by S0 (Q: null)
+342.271 C320 done served by S1 (Q: C328)
+342.271 C328 served by S1 (Q: null)
+342.359 C330 arrives
+342.359 C330 waits for S0 (Q: C330)
+342.378 C328 done served by S1 (Q: null)
+342.492 C331 arrives
+342.492 C331 served by S1 (Q: null)
+343.377 C332 arrives
+343.377 C332 waits for S1 (Q: C332)
+343.609 C322 done served by S0 (Q: C330)
+343.609 C330 served by S0 (Q: null)
+344.014 C333 arrives
+344.014 C333 waits for S0 (Q: C333)
+344.471 C334 arrives
+344.471 C334 waits for S4 (Q: C334)
+345.355 C331 done served by S1 (Q: C332)
+345.355 C332 served by S1 (Q: null)
+346.297 C335 arrives
+346.297 C335 waits for S1 (Q: C335)
+347.698 C336 arrives
+347.698 C336 leaves
+347.859 C337 arrives
+347.859 C337 leaves
+349.960 C315 done served by S2 (Q: C329)
+349.960 C329 served by S2 (Q: null)
+350.872 C338 arrives
+350.872 C338 waits for S2 (Q: C338)
+350.989 C339 arrives
+350.989 C339 leaves
+352.293 C330 done served by S0 (Q: C333)
+352.293 C333 served by S0 (Q: null)
+354.576 C340 arrives
+354.576 C340 waits for S0 (Q: C340)
+355.067 C341 arrives
+355.067 C341 leaves
+356.305 C342 arrives
+356.305 C342 leaves
+356.980 C333 done served by S0 (Q: C340)
+356.980 C340 served by S0 (Q: null)
+357.973 C332 done served by S1 (Q: C335)
+357.973 C335 served by S1 (Q: null)
+358.334 C340 done served by S0 (Q: null)
+358.811 C343 arrives
+358.811 C343 served by S0 (Q: null)
+359.070 C344 arrives
+359.070 C344 waits for S0 (Q: C344)
+359.598 C306 done served by S4 (Q: C334)
+359.598 C334 served by S4 (Q: null)
+360.094 C345 arrives
+360.094 C345 waits for S1 (Q: C345)
+360.599 C346 arrives
+360.599 C346 waits for S4 (Q: C346)
+360.753 C316 done served by S3 (Q: C321)
+360.753 C321 served by S3 (Q: null)
+360.788 C334 done served by S4 (Q: C346)
+360.788 C346 served by S4 (Q: null)
+361.279 C335 done served by S1 (Q: C345)
+361.279 C345 served by S1 (Q: null)
+361.601 C347 arrives
+361.601 C347 waits for S1 (Q: C347)
+362.060 C348 arrives
+362.060 C348 waits for S3 (Q: C348)
+362.183 C349 arrives
+362.183 C349 waits for S4 (Q: C349)
+362.602 C350 arrives
+362.602 C350 leaves
+363.044 C351 arrives
+363.044 C351 leaves
+363.230 C343 done served by S0 (Q: C344)
+363.230 C344 served by S0 (Q: null)
+365.735 C352 arrives
+365.735 C352 waits for S0 (Q: C352)
+366.241 C353 arrives
+366.241 C353 leaves
+366.835 C354 arrives
+366.835 C354 leaves
+367.417 C321 done served by S3 (Q: C348)
+367.417 C348 served by S3 (Q: null)
+367.469 C355 arrives
+367.469 C355 waits for S3 (Q: C355)
+367.560 C356 arrives
+367.560 C356 leaves
+367.618 C357 arrives
+367.618 C357 leaves
+367.686 C358 arrives
+367.686 C358 leaves
+368.179 C346 done served by S4 (Q: C349)
+368.179 C349 served by S4 (Q: null)
+369.438 C359 arrives
+369.438 C359 waits for S4 (Q: C359)
+369.700 C344 done served by S0 (Q: C352)
+369.700 C352 served by S0 (Q: null)
+369.866 C352 done served by S0 (Q: null)
+370.810 C349 done served by S4 (Q: C359)
+370.810 C359 served by S4 (Q: null)
+371.236 C360 arrives
+371.236 C360 served by S0 (Q: null)
+371.317 C361 arrives
+371.317 C361 waits for S0 (Q: C361)
+371.321 C362 arrives
+371.321 C362 waits for S4 (Q: C362)
+371.627 C363 arrives
+371.627 C363 leaves
+371.755 C329 done served by S2 (Q: C338)
+371.755 C338 served by S2 (Q: null)
+371.827 C364 arrives
+371.827 C364 waits for S2 (Q: C364)
+372.368 C365 arrives
+372.368 C365 leaves
+373.171 C366 arrives
+373.171 C366 leaves
+373.256 C338 done served by S2 (Q: C364)
+373.256 C364 served by S2 (Q: null)
+374.055 C367 arrives
+374.055 C367 waits for S2 (Q: C367)
+374.114 C348 done served by S3 (Q: C355)
+374.114 C355 served by S3 (Q: null)
+374.351 C360 done served by S0 (Q: C361)
+374.351 C361 served by S0 (Q: null)
+374.819 C368 arrives
+374.819 C368 waits for S0 (Q: C368)
+375.221 C369 arrives
+375.221 C369 waits for S3 (Q: C369)
+376.363 C364 done served by S2 (Q: C367)
+376.363 C367 served by S2 (Q: null)
+376.385 C370 arrives
+376.385 C370 waits for S2 (Q: C370)
+376.503 C371 arrives
+376.503 C371 leaves
+376.829 C372 arrives
+376.829 C372 leaves
+376.929 C345 done served by S1 (Q: C347)
+376.929 C347 served by S1 (Q: null)
+377.156 C373 arrives
+377.156 C373 waits for S1 (Q: C373)
+377.807 C374 arrives
+377.807 C374 leaves
+377.841 C375 arrives
+377.841 C375 leaves
+377.968 C355 done served by S3 (Q: C369)
+377.968 C369 served by S3 (Q: null)
+377.983 C361 done served by S0 (Q: C368)
+377.983 C368 served by S0 (Q: null)
+378.131 C376 arrives
+378.131 C376 waits for S0 (Q: C376)
+378.431 C377 arrives
+378.431 C377 waits for S3 (Q: C377)
+378.593 C378 arrives
+378.593 C378 leaves
+378.738 C368 done served by S0 (Q: C376)
+378.738 C376 served by S0 (Q: null)
+378.893 C376 done served by S0 (Q: null)
+379.222 C379 arrives
+379.222 C379 served by S0 (Q: null)
+379.233 C359 done served by S4 (Q: C362)
+379.233 C362 served by S4 (Q: null)
+380.014 C367 done served by S2 (Q: C370)
+380.014 C370 served by S2 (Q: null)
+380.540 C380 arrives
+380.540 C380 waits for S0 (Q: C380)
+380.832 C381 arrives
+380.832 C381 waits for S2 (Q: C381)
+381.198 C382 arrives
+381.198 C382 waits for S4 (Q: C382)
+381.550 C379 done served by S0 (Q: C380)
+381.550 C380 served by S0 (Q: null)
+382.493 C362 done served by S4 (Q: C382)
+382.493 C382 served by S4 (Q: null)
+382.589 C382 done served by S4 (Q: null)
+383.917 C383 arrives
+383.917 C383 served by S4 (Q: null)
+384.572 C384 arrives
+384.572 C384 waits for S0 (Q: C384)
+384.781 C385 arrives
+384.781 C385 waits for S4 (Q: C385)
+385.414 C347 done served by S1 (Q: C373)
+385.414 C373 served by S1 (Q: null)
+385.417 C386 arrives
+385.417 C386 waits for S1 (Q: C386)
+385.744 C387 arrives
+385.744 C387 leaves
+385.963 C369 done served by S3 (Q: C377)
+385.963 C377 served by S3 (Q: null)
+386.380 C388 arrives
+386.380 C388 waits for S3 (Q: C388)
+386.844 C389 arrives
+386.844 C389 leaves
+386.875 C373 done served by S1 (Q: C386)
+386.875 C386 served by S1 (Q: null)
+387.184 C390 arrives
+387.184 C390 waits for S1 (Q: C390)
+387.351 C370 done served by S2 (Q: C381)
+387.351 C381 served by S2 (Q: null)
+387.661 C383 done served by S4 (Q: C385)
+387.661 C385 served by S4 (Q: null)
+388.213 C391 arrives
+388.213 C391 waits for S2 (Q: C391)
+388.284 C392 arrives
+388.284 C392 waits for S4 (Q: C392)
+389.623 C393 arrives
+389.623 C393 leaves
+389.894 C377 done served by S3 (Q: C388)
+389.894 C388 served by S3 (Q: null)
+390.047 C386 done served by S1 (Q: C390)
+390.047 C390 served by S1 (Q: null)
+390.555 C394 arrives
+390.555 C394 waits for S1 (Q: C394)
+390.590 C395 arrives
+390.590 C395 waits for S3 (Q: C395)
+391.738 C396 arrives
+391.738 C396 leaves
+392.448 C397 arrives
+392.448 C397 leaves
+392.479 C398 arrives
+392.479 C398 leaves
+392.602 C381 done served by S2 (Q: C391)
+392.602 C391 served by S2 (Q: null)
+392.869 C399 arrives
+392.869 C399 waits for S2 (Q: C399)
+393.132 C400 arrives
+393.132 C400 leaves
+394.911 C388 done served by S3 (Q: C395)
+394.911 C395 served by S3 (Q: null)
+395.444 C401 arrives
+395.444 C401 waits for S3 (Q: C401)
+396.311 C402 arrives
+396.311 C402 leaves
+396.443 C403 arrives
+396.443 C403 leaves
+396.491 C385 done served by S4 (Q: C392)
+396.491 C392 served by S4 (Q: null)
+396.697 C404 arrives
+396.697 C404 waits for S4 (Q: C404)
+397.389 C405 arrives
+397.389 C405 leaves
+398.510 C406 arrives
+398.510 C406 leaves
+398.664 C390 done served by S1 (Q: C394)
+398.664 C394 served by S1 (Q: null)
+399.203 C392 done served by S4 (Q: C404)
+399.203 C404 served by S4 (Q: null)
+400.235 C391 done served by S2 (Q: C399)
+400.235 C399 served by S2 (Q: null)
+400.441 C380 done served by S0 (Q: C384)
+400.441 C384 served by S0 (Q: null)
+400.701 C404 done served by S4 (Q: null)
+400.886 C394 done served by S1 (Q: null)
+402.091 C399 done served by S2 (Q: null)
+403.464 C407 arrives
+403.464 C407 served by S1 (Q: null)
+403.681 C407 done served by S1 (Q: null)
+404.902 C408 arrives
+404.902 C408 served by S1 (Q: null)
+405.918 C409 arrives
+405.918 C409 served by S2 (Q: null)
+407.903 C410 arrives
+407.903 C410 served by S4 (Q: null)
+409.084 C411 arrives
+409.084 C411 waits for S0 (Q: C411)
+409.579 C395 done served by S3 (Q: C401)
+409.579 C401 served by S3 (Q: null)
+409.581 C412 arrives
+409.581 C412 waits for S1 (Q: C412)
+409.686 C384 done served by S0 (Q: C411)
+409.686 C411 served by S0 (Q: null)
+411.012 C413 arrives
+411.012 C413 waits for S0 (Q: C413)
+411.462 C410 done served by S4 (Q: null)
+411.763 C414 arrives
+411.763 C414 served by S4 (Q: null)
+411.763 C401 done served by S3 (Q: null)
+412.600 C411 done served by S0 (Q: C413)
+412.600 C413 served by S0 (Q: null)
+414.280 C415 arrives
+414.280 C415 served by S3 (Q: null)
+414.899 C416 arrives
+414.899 C416 waits for S0 (Q: C416)
+415.116 C417 arrives
+415.116 C417 waits for S2 (Q: C417)
+415.279 C418 arrives
+415.279 C418 waits for S3 (Q: C418)
+417.643 C419 arrives
+417.643 C419 waits for S4 (Q: C419)
+418.214 C420 arrives
+418.214 C420 leaves
+418.268 C421 arrives
+418.268 C421 leaves
+418.320 C408 done served by S1 (Q: C412)
+418.320 C412 served by S1 (Q: null)
+418.379 C412 done served by S1 (Q: null)
+419.559 C422 arrives
+419.559 C422 served by S1 (Q: null)
+420.642 C423 arrives
+420.642 C423 waits for S1 (Q: C423)
+421.377 C424 arrives
+421.377 C424 leaves
+421.527 C425 arrives
+421.527 C425 leaves
+422.182 C426 arrives
+422.182 C426 leaves
+422.510 C427 arrives
+422.510 C427 leaves
+422.811 C413 done served by S0 (Q: C416)
+422.811 C416 served by S0 (Q: null)
+424.697 C414 done served by S4 (Q: C419)
+424.697 C419 served by S4 (Q: null)
+425.646 C428 arrives
+425.646 C428 waits for S0 (Q: C428)
+426.081 C415 done served by S3 (Q: C418)
+426.081 C418 served by S3 (Q: null)
+426.815 C409 done served by S2 (Q: C417)
+426.815 C417 served by S2 (Q: null)
+426.922 C429 arrives
+426.922 C429 waits for S2 (Q: C429)
+427.006 C418 done served by S3 (Q: null)
+427.175 C430 arrives
+427.175 C430 served by S3 (Q: null)
+428.809 C431 arrives
+428.809 C431 waits for S3 (Q: C431)
+429.332 C432 arrives
+429.332 C432 waits for S4 (Q: C432)
+429.700 C422 done served by S1 (Q: C423)
+429.700 C423 served by S1 (Q: null)
+430.012 C423 done served by S1 (Q: null)
+431.146 C433 arrives
+431.146 C433 served by S1 (Q: null)
+431.338 C417 done served by S2 (Q: C429)
+431.338 C429 served by S2 (Q: null)
+431.637 C434 arrives
+431.637 C434 waits for S1 (Q: C434)
+432.357 C435 arrives
+432.357 C435 waits for S2 (Q: C435)
+432.444 C436 arrives
+432.444 C436 leaves
+433.196 C437 arrives
+433.196 C437 leaves
+433.460 C438 arrives
+433.460 C438 leaves
+433.657 C439 arrives
+433.657 C439 leaves
+434.319 C440 arrives
+434.319 C440 leaves
+436.232 C441 arrives
+436.232 C441 leaves
+437.045 C442 arrives
+437.045 C442 leaves
+437.115 C433 done served by S1 (Q: C434)
+437.115 C434 served by S1 (Q: null)
+437.125 C419 done served by S4 (Q: C432)
+437.125 C432 served by S4 (Q: null)
+439.749 C416 done served by S0 (Q: C428)
+439.749 C428 served by S0 (Q: null)
+440.902 C429 done served by S2 (Q: C435)
+440.902 C435 served by S2 (Q: null)
+441.040 C443 arrives
+441.040 C443 waits for S0 (Q: C443)
+441.082 C444 arrives
+441.082 C444 waits for S1 (Q: C444)
+441.701 C432 done served by S4 (Q: null)
+442.916 C430 done served by S3 (Q: C431)
+442.916 C431 served by S3 (Q: null)
+443.052 C435 done served by S2 (Q: null)
+443.820 C445 arrives
+443.820 C445 served by S2 (Q: null)
+444.782 C428 done served by S0 (Q: C443)
+444.782 C443 served by S0 (Q: null)
+445.961 C446 arrives
+445.961 C446 served by S4 (Q: null)
+446.067 C447 arrives
+446.067 C447 waits for S0 (Q: C447)
+446.087 C431 done served by S3 (Q: null)
+446.550 C448 arrives
+446.550 C448 served by S3 (Q: null)
+447.260 C449 arrives
+447.260 C449 waits for S2 (Q: C449)
+447.421 C450 arrives
+447.421 C450 waits for S3 (Q: C450)
+449.049 C451 arrives
+449.049 C451 waits for S4 (Q: C451)
+449.792 C452 arrives
+449.792 C452 leaves
+449.932 C443 done served by S0 (Q: C447)
+449.932 C447 served by S0 (Q: null)
+450.120 C434 done served by S1 (Q: C444)
+450.120 C444 served by S1 (Q: null)
+450.350 C453 arrives
+450.350 C453 waits for S0 (Q: C453)
+450.416 C448 done served by S3 (Q: C450)
+450.416 C450 served by S3 (Q: null)
+451.607 C454 arrives
+451.607 C454 waits for S1 (Q: C454)
+453.744 C445 done served by S2 (Q: C449)
+453.744 C449 served by S2 (Q: null)
+453.966 C449 done served by S2 (Q: null)
+454.388 C455 arrives
+454.388 C455 served by S2 (Q: null)
+455.094 C455 done served by S2 (Q: null)
+456.773 C456 arrives
+456.773 C456 served by S2 (Q: null)
+457.523 C447 done served by S0 (Q: C453)
+457.523 C453 served by S0 (Q: null)
+457.625 C457 arrives
+457.625 C457 waits for S0 (Q: C457)
+457.947 C450 done served by S3 (Q: null)
+459.184 C458 arrives
+459.184 C458 served by S3 (Q: null)
+459.189 C456 done served by S2 (Q: null)
+459.359 C459 arrives
+459.359 C459 served by S2 (Q: null)
+460.344 C453 done served by S0 (Q: C457)
+460.344 C457 served by S0 (Q: null)
+461.600 C446 done served by S4 (Q: C451)
+461.600 C451 served by S4 (Q: null)
+462.790 C457 done served by S0 (Q: null)
+465.260 C459 done served by S2 (Q: null)
+467.602 C460 arrives
+467.602 C460 served by S0 (Q: null)
+467.893 C461 arrives
+467.893 C461 served by S2 (Q: null)
+468.122 C461 done served by S2 (Q: null)
+468.276 C462 arrives
+468.276 C462 served by S2 (Q: null)
+468.315 C463 arrives
+468.315 C463 waits for S0 (Q: C463)
+469.013 C451 done served by S4 (Q: null)
+470.105 C458 done served by S3 (Q: null)
+471.434 C464 arrives
+471.434 C464 served by S3 (Q: null)
+472.748 C464 done served by S3 (Q: null)
+473.161 C465 arrives
+473.161 C465 served by S3 (Q: null)
+473.487 C444 done served by S1 (Q: C454)
+473.487 C454 served by S1 (Q: null)
+475.208 C466 arrives
+475.208 C466 served by S4 (Q: null)
+475.532 C467 arrives
+475.532 C467 waits for S1 (Q: C467)
+475.937 C465 done served by S3 (Q: null)
+477.245 C468 arrives
+477.245 C468 served by S3 (Q: null)
+478.343 C469 arrives
+478.343 C469 waits for S2 (Q: C469)
+478.538 C470 arrives
+478.538 C470 waits for S3 (Q: C470)
+480.168 C471 arrives
+480.168 C471 waits for S4 (Q: C471)
+480.902 C454 done served by S1 (Q: C467)
+480.902 C467 served by S1 (Q: null)
+481.506 C472 arrives
+481.506 C472 waits for S1 (Q: C472)
+484.227 C473 arrives
+484.227 C473 leaves
+485.292 C474 arrives
+485.292 C474 leaves
+485.421 C460 done served by S0 (Q: C463)
+485.421 C463 served by S0 (Q: null)
+485.541 C463 done served by S0 (Q: null)
+485.568 C475 arrives
+485.568 C475 served by S0 (Q: null)
+487.159 C476 arrives
+487.159 C476 waits for S0 (Q: C476)
+487.706 C467 done served by S1 (Q: C472)
+487.706 C472 served by S1 (Q: null)
+487.956 C477 arrives
+487.956 C477 waits for S1 (Q: C477)
+488.807 C478 arrives
+488.807 C478 leaves
+489.208 C472 done served by S1 (Q: C477)
+489.208 C477 served by S1 (Q: null)
+489.462 C479 arrives
+489.462 C479 waits for S1 (Q: C479)
+489.817 C480 arrives
+489.817 C480 leaves
+492.306 C466 done served by S4 (Q: C471)
+492.306 C471 served by S4 (Q: null)
+493.513 C481 arrives
+493.513 C481 waits for S4 (Q: C481)
+493.962 C482 arrives
+493.962 C482 leaves
+494.797 C483 arrives
+494.797 C483 leaves
+495.171 C468 done served by S3 (Q: C470)
+495.171 C470 served by S3 (Q: null)
+495.744 C484 arrives
+495.744 C484 waits for S3 (Q: C484)
+497.487 C477 done served by S1 (Q: C479)
+497.487 C479 served by S1 (Q: null)
+498.984 C462 done served by S2 (Q: C469)
+498.984 C469 served by S2 (Q: null)
+500.875 C485 arrives
+500.875 C485 waits for S1 (Q: C485)
+500.971 C486 arrives
+500.971 C486 waits for S2 (Q: C486)
+502.081 C479 done served by S1 (Q: C485)
+502.081 C485 served by S1 (Q: null)
+502.482 C471 done served by S4 (Q: C481)
+502.482 C481 served by S4 (Q: null)
+503.379 C469 done served by S2 (Q: C486)
+503.379 C486 served by S2 (Q: null)
+503.516 C487 arrives
+503.516 C487 waits for S1 (Q: C487)
+503.591 C475 done served by S0 (Q: C476)
+503.591 C476 served by S0 (Q: null)
+503.627 C488 arrives
+503.627 C488 waits for S0 (Q: C488)
+504.193 C489 arrives
+504.193 C489 waits for S2 (Q: C489)
+504.394 C490 arrives
+504.394 C490 waits for S4 (Q: C490)
+504.595 C491 arrives
+504.595 C491 leaves
+504.831 C492 arrives
+504.831 C492 leaves
+504.851 C476 done served by S0 (Q: C488)
+504.851 C488 served by S0 (Q: null)
+505.080 C493 arrives
+505.080 C493 waits for S0 (Q: C493)
+505.102 C486 done served by S2 (Q: C489)
+505.102 C489 served by S2 (Q: null)
+505.166 C494 arrives
+505.166 C494 waits for S2 (Q: C494)
+505.551 C470 done served by S3 (Q: C484)
+505.551 C484 served by S3 (Q: null)
+505.606 C485 done served by S1 (Q: C487)
+505.606 C487 served by S1 (Q: null)
+505.670 C495 arrives
+505.670 C495 waits for S1 (Q: C495)
+505.904 C496 arrives
+505.904 C496 waits for S3 (Q: C496)
+506.670 C497 arrives
+506.670 C497 leaves
+507.761 C484 done served by S3 (Q: C496)
+507.761 C496 served by S3 (Q: null)
+509.522 C498 arrives
+509.522 C498 waits for S3 (Q: C498)
+509.816 C499 arrives
+509.816 C499 leaves
+509.864 C500 arrives
+509.864 C500 leaves
+510.880 C487 done served by S1 (Q: C495)
+510.880 C495 served by S1 (Q: null)
+511.639 C488 done served by S0 (Q: C493)
+511.639 C493 served by S0 (Q: null)
+512.459 C501 arrives
+512.459 C501 waits for S0 (Q: C501)
+512.588 C502 arrives
+512.588 C502 waits for S1 (Q: C502)
+512.635 C481 done served by S4 (Q: C490)
+512.635 C490 served by S4 (Q: null)
+512.654 C496 done served by S3 (Q: C498)
+512.654 C498 served by S3 (Q: null)
+512.841 C503 arrives
+512.841 C503 waits for S3 (Q: C503)
+513.121 C504 arrives
+513.121 C504 waits for S4 (Q: C504)
+513.552 C505 arrives
+513.552 C505 leaves
+515.360 C506 arrives
+515.360 C506 leaves
+515.377 C507 arrives
+515.377 C507 leaves
+515.919 C489 done served by S2 (Q: C494)
+515.919 C494 served by S2 (Q: null)
+515.956 C493 done served by S0 (Q: C501)
+515.956 C501 served by S0 (Q: null)
+516.107 C501 done served by S0 (Q: null)
+517.226 C508 arrives
+517.226 C508 served by S0 (Q: null)
+517.704 C495 done served by S1 (Q: C502)
+517.704 C502 served by S1 (Q: null)
+518.694 C508 done served by S0 (Q: null)
+519.817 C509 arrives
+519.817 C509 served by S0 (Q: null)
+520.070 C498 done served by S3 (Q: C503)
+520.070 C503 served by S3 (Q: null)
+520.204 C510 arrives
+520.204 C510 waits for S0 (Q: C510)
+520.232 C490 done served by S4 (Q: C504)
+520.232 C504 served by S4 (Q: null)
+520.649 C494 done served by S2 (Q: null)
+520.923 C503 done served by S3 (Q: null)
+521.692 C511 arrives
+521.692 C511 served by S2 (Q: null)
+521.903 C504 done served by S4 (Q: null)
+522.032 C512 arrives
+522.032 C512 served by S3 (Q: null)
+524.045 C513 arrives
+524.045 C513 served by S4 (Q: null)
+524.640 C514 arrives
+524.640 C514 waits for S1 (Q: C514)
+525.374 C515 arrives
+525.374 C515 waits for S2 (Q: C515)
+525.633 C516 arrives
+525.633 C516 waits for S3 (Q: C516)
+526.788 C517 arrives
+526.788 C517 waits for S4 (Q: C517)
+526.848 C518 arrives
+526.848 C518 leaves
+526.996 C519 arrives
+526.996 C519 leaves
+527.379 C520 arrives
+527.379 C520 leaves
+527.445 C521 arrives
+527.445 C521 leaves
+527.456 C522 arrives
+527.456 C522 leaves
+527.466 C512 done served by S3 (Q: C516)
+527.466 C516 served by S3 (Q: null)
+528.541 C511 done served by S2 (Q: C515)
+528.541 C515 served by S2 (Q: null)
+528.661 C509 done served by S0 (Q: C510)
+528.661 C510 served by S0 (Q: null)
+530.201 C502 done served by S1 (Q: C514)
+530.201 C514 served by S1 (Q: null)
+531.016 C523 arrives
+531.016 C523 waits for S0 (Q: C523)
+531.237 C516 done served by S3 (Q: null)
+531.540 C524 arrives
+531.540 C524 served by S3 (Q: null)
+531.651 C525 arrives
+531.651 C525 waits for S1 (Q: C525)
+532.208 C526 arrives
+532.208 C526 waits for S2 (Q: C526)
+532.263 C524 done served by S3 (Q: null)
+532.547 C513 done served by S4 (Q: C517)
+532.547 C517 served by S4 (Q: null)
+532.892 C527 arrives
+532.892 C527 served by S3 (Q: null)
+534.514 C528 arrives
+534.514 C528 waits for S3 (Q: C528)
+535.691 C529 arrives
+535.691 C529 waits for S4 (Q: C529)
+535.992 C510 done served by S0 (Q: C523)
+535.992 C523 served by S0 (Q: null)
+536.565 C530 arrives
+536.565 C530 waits for S0 (Q: C530)
+536.664 C531 arrives
+536.664 C531 leaves
+536.951 C517 done served by S4 (Q: C529)
+536.951 C529 served by S4 (Q: null)
+537.978 C532 arrives
+537.978 C532 waits for S4 (Q: C532)
+538.828 C515 done served by S2 (Q: C526)
+538.828 C526 served by S2 (Q: null)
+539.028 C523 done served by S0 (Q: C530)
+539.028 C530 served by S0 (Q: null)
+539.062 C533 arrives
+539.062 C533 waits for S0 (Q: C533)
+539.784 C534 arrives
+539.784 C534 waits for S2 (Q: C534)
+541.228 C514 done served by S1 (Q: C525)
+541.228 C525 served by S1 (Q: null)
+543.015 C525 done served by S1 (Q: null)
+544.502 C529 done served by S4 (Q: C532)
+544.502 C532 served by S4 (Q: null)
+544.606 C535 arrives
+544.606 C535 served by S1 (Q: null)
+545.695 C532 done served by S4 (Q: null)
+545.725 C536 arrives
+545.725 C536 served by S4 (Q: null)
+545.841 C535 done served by S1 (Q: null)
+545.990 C537 arrives
+545.990 C537 served by S1 (Q: null)
+546.654 C537 done served by S1 (Q: null)
+546.960 C538 arrives
+546.960 C538 served by S1 (Q: null)
+548.009 C539 arrives
+548.009 C539 waits for S1 (Q: C539)
+549.750 C540 arrives
+549.750 C540 waits for S4 (Q: C540)
+551.154 C541 arrives
+551.154 C541 leaves
+551.522 C542 arrives
+551.522 C542 leaves
+551.853 C530 done served by S0 (Q: C533)
+551.853 C533 served by S0 (Q: null)
+552.574 C543 arrives
+552.574 C543 waits for S0 (Q: C543)
+553.768 C544 arrives
+553.768 C544 leaves
+554.113 C545 arrives
+554.113 C545 leaves
+554.245 C546 arrives
+554.245 C546 leaves
+554.309 C547 arrives
+554.309 C547 leaves
+555.336 C548 arrives
+555.336 C548 leaves
+556.125 C527 done served by S3 (Q: C528)
+556.125 C528 served by S3 (Q: null)
+556.145 C533 done served by S0 (Q: C543)
+556.145 C543 served by S0 (Q: null)
+556.789 C526 done served by S2 (Q: C534)
+556.789 C534 served by S2 (Q: null)
+557.434 C549 arrives
+557.434 C549 waits for S0 (Q: C549)
+559.074 C543 done served by S0 (Q: C549)
+559.074 C549 served by S0 (Q: null)
+559.133 C550 arrives
+559.133 C550 waits for S0 (Q: C550)
+559.226 C536 done served by S4 (Q: C540)
+559.226 C540 served by S4 (Q: null)
+559.466 C528 done served by S3 (Q: null)
+560.104 C551 arrives
+560.104 C551 served by S3 (Q: null)
+560.108 C552 arrives
+560.108 C552 waits for S2 (Q: C552)
+560.587 C553 arrives
+560.587 C553 waits for S3 (Q: C553)
+560.701 C551 done served by S3 (Q: C553)
+560.701 C553 served by S3 (Q: null)
+560.951 C554 arrives
+560.951 C554 waits for S3 (Q: C554)
+562.574 C555 arrives
+562.574 C555 waits for S4 (Q: C555)
+563.134 C538 done served by S1 (Q: C539)
+563.134 C539 served by S1 (Q: null)
+563.485 C556 arrives
+563.485 C556 waits for S1 (Q: C556)
+563.684 C539 done served by S1 (Q: C556)
+563.684 C556 served by S1 (Q: null)
+564.509 C540 done served by S4 (Q: C555)
+564.509 C555 served by S4 (Q: null)
+566.594 C557 arrives
+566.594 C557 waits for S1 (Q: C557)
+567.888 C558 arrives
+567.888 C558 waits for S4 (Q: C558)
+568.203 C534 done served by S2 (Q: C552)
+568.203 C552 served by S2 (Q: null)
+569.542 C559 arrives
+569.542 C559 waits for S2 (Q: C559)
+569.832 C555 done served by S4 (Q: C558)
+569.832 C558 served by S4 (Q: null)
+569.883 C560 arrives
+569.883 C560 waits for S4 (Q: C560)
+570.962 C549 done served by S0 (Q: C550)
+570.962 C550 served by S0 (Q: null)
+571.293 C550 done served by S0 (Q: null)
+571.706 C561 arrives
+571.706 C561 served by S0 (Q: null)
+571.880 C553 done served by S3 (Q: C554)
+571.880 C554 served by S3 (Q: null)
+572.358 C556 done served by S1 (Q: C557)
+572.358 C557 served by S1 (Q: null)
+572.391 C562 arrives
+572.391 C562 waits for S0 (Q: C562)
+572.696 C558 done served by S4 (Q: C560)
+572.696 C560 served by S4 (Q: null)
+573.289 C560 done served by S4 (Q: null)
+575.557 C561 done served by S0 (Q: C562)
+575.557 C562 served by S0 (Q: null)
+575.711 C563 arrives
+575.711 C563 served by S4 (Q: null)
+576.766 C564 arrives
+576.766 C564 waits for S0 (Q: C564)
+580.081 C565 arrives
+580.081 C565 waits for S1 (Q: C565)
+580.129 C563 done served by S4 (Q: null)
+581.148 C566 arrives
+581.148 C566 served by S4 (Q: null)
+582.117 C557 done served by S1 (Q: C565)
+582.117 C565 served by S1 (Q: null)
+582.258 C567 arrives
+582.258 C567 waits for S1 (Q: C567)
+583.804 C566 done served by S4 (Q: null)
+585.090 C568 arrives
+585.090 C568 served by S4 (Q: null)
+585.222 C565 done served by S1 (Q: C567)
+585.222 C567 served by S1 (Q: null)
+585.536 C569 arrives
+585.536 C569 waits for S1 (Q: C569)
+586.411 C568 done served by S4 (Q: null)
+586.838 C570 arrives
+586.838 C570 served by S4 (Q: null)
+587.020 C571 arrives
+587.020 C571 waits for S3 (Q: C571)
+587.265 C554 done served by S3 (Q: C571)
+587.265 C571 served by S3 (Q: null)
+587.839 C570 done served by S4 (Q: null)
+589.324 C552 done served by S2 (Q: C559)
+589.324 C559 served by S2 (Q: null)
+589.597 C562 done served by S0 (Q: C564)
+589.597 C564 served by S0 (Q: null)
+590.552 C571 done served by S3 (Q: null)
+591.066 C559 done served by S2 (Q: null)
+591.738 C572 arrives
+591.738 C572 served by S2 (Q: null)
+591.900 C572 done served by S2 (Q: null)
+592.865 C573 arrives
+592.865 C573 served by S2 (Q: null)
+594.809 C564 done served by S0 (Q: null)
+594.866 C574 arrives
+594.866 C574 served by S0 (Q: null)
+596.179 C575 arrives
+596.179 C575 served by S3 (Q: null)
+596.311 C576 arrives
+596.311 C576 served by S4 (Q: null)
+596.736 C567 done served by S1 (Q: C569)
+596.736 C569 served by S1 (Q: null)
+596.770 C577 arrives
+596.770 C577 waits for S0 (Q: C577)
+596.977 C578 arrives
+596.977 C578 waits for S1 (Q: C578)
+596.999 C573 done served by S2 (Q: null)
+597.259 C569 done served by S1 (Q: C578)
+597.259 C578 served by S1 (Q: null)
+598.349 C579 arrives
+598.349 C579 served by S2 (Q: null)
+598.775 C576 done served by S4 (Q: null)
+599.523 C580 arrives
+599.523 C580 served by S4 (Q: null)
+599.690 C581 arrives
+599.690 C581 waits for S1 (Q: C581)
+601.448 C579 done served by S2 (Q: null)
+602.652 C582 arrives
+602.652 C582 served by S2 (Q: null)
+602.757 C583 arrives
+602.757 C583 waits for S2 (Q: C583)
+603.038 C580 done served by S4 (Q: null)
+603.266 C575 done served by S3 (Q: null)
+603.559 C584 arrives
+603.559 C584 served by S3 (Q: null)
+603.792 C585 arrives
+603.792 C585 served by S4 (Q: null)
+604.475 C586 arrives
+604.475 C586 waits for S3 (Q: C586)
+604.681 C574 done served by S0 (Q: C577)
+604.681 C577 served by S0 (Q: null)
+606.539 C587 arrives
+606.539 C587 waits for S0 (Q: C587)
+607.223 C588 arrives
+607.223 C588 waits for S4 (Q: C588)
+607.623 C589 arrives
+607.623 C589 leaves
+607.746 C584 done served by S3 (Q: C586)
+607.746 C586 served by S3 (Q: null)
+609.723 C590 arrives
+609.723 C590 waits for S3 (Q: C590)
+609.764 C591 arrives
+609.764 C591 leaves
+610.452 C592 arrives
+610.452 C592 leaves
+612.289 C578 done served by S1 (Q: C581)
+612.289 C581 served by S1 (Q: null)
+612.613 C577 done served by S0 (Q: C587)
+612.613 C587 served by S0 (Q: null)
+612.674 C593 arrives
+612.674 C593 waits for S0 (Q: C593)
+613.413 C594 arrives
+613.413 C594 waits for S1 (Q: C594)
+613.430 C595 arrives
+613.430 C595 leaves
+614.352 C596 arrives
+614.352 C596 leaves
+615.895 C597 arrives
+615.895 C597 leaves
+616.475 C598 arrives
+616.475 C598 leaves
+616.961 C599 arrives
+616.961 C599 leaves
+617.267 C600 arrives
+617.267 C600 leaves
+617.781 C582 done served by S2 (Q: C583)
+617.781 C583 served by S2 (Q: null)
+618.502 C585 done served by S4 (Q: C588)
+618.502 C588 served by S4 (Q: null)
+619.167 C583 done served by S2 (Q: null)
+619.409 C601 arrives
+619.409 C601 served by S2 (Q: null)
+619.590 C602 arrives
+619.590 C602 waits for S2 (Q: C602)
+621.948 C601 done served by S2 (Q: C602)
+621.948 C602 served by S2 (Q: null)
+622.406 C603 arrives
+622.406 C603 waits for S2 (Q: C603)
+622.499 C604 arrives
+622.499 C604 waits for S4 (Q: C604)
+623.403 C605 arrives
+623.403 C605 leaves
+623.526 C587 done served by S0 (Q: C593)
+623.526 C593 served by S0 (Q: null)
+624.436 C581 done served by S1 (Q: C594)
+624.436 C594 served by S1 (Q: null)
+625.388 C602 done served by S2 (Q: C603)
+625.388 C603 served by S2 (Q: null)
+625.840 C606 arrives
+625.840 C606 waits for S0 (Q: C606)
+626.245 C607 arrives
+626.245 C607 waits for S1 (Q: C607)
+626.413 C608 arrives
+626.413 C608 waits for S2 (Q: C608)
+626.560 C609 arrives
+626.560 C609 leaves
+626.923 C610 arrives
+626.923 C610 leaves
+626.928 C586 done served by S3 (Q: C590)
+626.928 C590 served by S3 (Q: null)
+627.063 C611 arrives
+627.063 C611 waits for S3 (Q: C611)
+627.461 C590 done served by S3 (Q: C611)
+627.461 C611 served by S3 (Q: null)
+627.515 C612 arrives
+627.515 C612 waits for S3 (Q: C612)
+629.200 C613 arrives
+629.200 C613 leaves
+629.881 C603 done served by S2 (Q: C608)
+629.881 C608 served by S2 (Q: null)
+629.969 C614 arrives
+629.969 C614 waits for S2 (Q: C614)
+630.637 C611 done served by S3 (Q: C612)
+630.637 C612 served by S3 (Q: null)
+631.955 C612 done served by S3 (Q: null)
+632.548 C615 arrives
+632.548 C615 served by S3 (Q: null)
+633.762 C616 arrives
+633.762 C616 waits for S3 (Q: C616)
+634.167 C594 done served by S1 (Q: C607)
+634.167 C607 served by S1 (Q: null)
+634.260 C617 arrives
+634.260 C617 waits for S1 (Q: C617)
+635.197 C588 done served by S4 (Q: C604)
+635.197 C604 served by S4 (Q: null)
+635.945 C604 done served by S4 (Q: null)
+636.376 C618 arrives
+636.376 C618 served by S4 (Q: null)
+636.558 C608 done served by S2 (Q: C614)
+636.558 C614 served by S2 (Q: null)
+636.777 C619 arrives
+636.777 C619 waits for S2 (Q: C619)
+636.826 C614 done served by S2 (Q: C619)
+636.826 C619 served by S2 (Q: null)
+638.338 C620 arrives
+638.338 C620 waits for S2 (Q: C620)
+640.065 C593 done served by S0 (Q: C606)
+640.065 C606 served by S0 (Q: null)
+640.635 C606 done served by S0 (Q: null)
+641.195 C619 done served by S2 (Q: C620)
+641.195 C620 served by S2 (Q: null)
+645.523 C621 arrives
+645.523 C621 served by S0 (Q: null)
+645.654 C622 arrives
+645.654 C622 waits for S0 (Q: C622)
+645.934 C623 arrives
+645.934 C623 waits for S2 (Q: C623)
+646.296 C607 done served by S1 (Q: C617)
+646.296 C617 served by S1 (Q: null)
+646.977 C624 arrives
+646.977 C624 waits for S1 (Q: C624)
+647.505 C615 done served by S3 (Q: C616)
+647.505 C616 served by S3 (Q: null)
+647.543 C625 arrives
+647.543 C625 waits for S3 (Q: C625)
+647.829 C618 done served by S4 (Q: null)
+649.092 C617 done served by S1 (Q: C624)
+649.092 C624 served by S1 (Q: null)
+649.117 C626 arrives
+649.117 C626 served by S4 (Q: null)
+650.045 C627 arrives
+650.045 C627 waits for S1 (Q: C627)
+650.475 C628 arrives
+650.475 C628 waits for S4 (Q: C628)
+650.722 C621 done served by S0 (Q: C622)
+650.722 C622 served by S0 (Q: null)
+652.291 C629 arrives
+652.291 C629 waits for S0 (Q: C629)
+654.074 C622 done served by S0 (Q: C629)
+654.074 C629 served by S0 (Q: null)
+654.264 C630 arrives
+654.264 C630 waits for S0 (Q: C630)
+654.408 C631 arrives
+654.408 C631 leaves
+657.018 C620 done served by S2 (Q: C623)
+657.018 C623 served by S2 (Q: null)
+657.054 C629 done served by S0 (Q: C630)
+657.054 C630 served by S0 (Q: null)
+657.478 C632 arrives
+657.478 C632 waits for S0 (Q: C632)
+659.116 C633 arrives
+659.116 C633 waits for S2 (Q: C633)
+659.199 C634 arrives
+659.199 C634 leaves
+659.291 C635 arrives
+659.291 C635 leaves
+659.297 C636 arrives
+659.297 C636 leaves
+660.723 C637 arrives
+660.723 C637 leaves
+660.889 C638 arrives
+660.889 C638 leaves
+664.191 C639 arrives
+664.191 C639 leaves
+666.157 C640 arrives
+666.157 C640 leaves
+666.416 C641 arrives
+666.416 C641 leaves
+667.115 C626 done served by S4 (Q: C628)
+667.115 C628 served by S4 (Q: null)
+667.216 C642 arrives
+667.216 C642 waits for S4 (Q: C642)
+667.651 C643 arrives
+667.651 C643 leaves
+667.794 C644 arrives
+667.794 C644 leaves
+667.937 C645 arrives
+667.937 C645 leaves
+667.987 C646 arrives
+667.987 C646 leaves
+668.020 C624 done served by S1 (Q: C627)
+668.020 C627 served by S1 (Q: null)
+668.901 C630 done served by S0 (Q: C632)
+668.901 C632 served by S0 (Q: null)
+669.388 C647 arrives
+669.388 C647 waits for S0 (Q: C647)
+670.697 C648 arrives
+670.697 C648 waits for S1 (Q: C648)
+671.759 C649 arrives
+671.759 C649 leaves
+672.344 C623 done served by S2 (Q: C633)
+672.344 C633 served by S2 (Q: null)
+672.753 C628 done served by S4 (Q: C642)
+672.753 C642 served by S4 (Q: null)
+673.660 C650 arrives
+673.660 C650 waits for S2 (Q: C650)
+673.710 C651 arrives
+673.710 C651 waits for S4 (Q: C651)
+673.892 C652 arrives
+673.892 C652 leaves
+674.278 C632 done served by S0 (Q: C647)
+674.278 C647 served by S0 (Q: null)
+674.392 C653 arrives
+674.392 C653 waits for S0 (Q: C653)
+674.980 C616 done served by S3 (Q: C625)
+674.980 C625 served by S3 (Q: null)
+675.331 C654 arrives
+675.331 C654 waits for S3 (Q: C654)
+676.515 C655 arrives
+676.515 C655 leaves
+676.750 C642 done served by S4 (Q: C651)
+676.750 C651 served by S4 (Q: null)
+676.752 C656 arrives
+676.752 C656 waits for S4 (Q: C656)
+676.770 C625 done served by S3 (Q: C654)
+676.770 C654 served by S3 (Q: null)
+677.044 C647 done served by S0 (Q: C653)
+677.044 C653 served by S0 (Q: null)
+678.125 C657 arrives
+678.125 C657 waits for S0 (Q: C657)
+678.710 C627 done served by S1 (Q: C648)
+678.710 C648 served by S1 (Q: null)
+679.152 C658 arrives
+679.152 C658 waits for S1 (Q: C658)
+679.431 C659 arrives
+679.431 C659 waits for S3 (Q: C659)
+679.844 C660 arrives
+679.844 C660 leaves
+680.085 C661 arrives
+680.085 C661 leaves
+680.394 C662 arrives
+680.394 C662 leaves
+681.554 C648 done served by S1 (Q: C658)
+681.554 C658 served by S1 (Q: null)
+682.250 C663 arrives
+682.250 C663 waits for S1 (Q: C663)
+684.406 C654 done served by S3 (Q: C659)
+684.406 C659 served by S3 (Q: null)
+685.840 C664 arrives
+685.840 C664 waits for S3 (Q: C664)
+686.085 C665 arrives
+686.085 C665 leaves
+686.518 C666 arrives
+686.518 C666 leaves
+687.127 C651 done served by S4 (Q: C656)
+687.127 C656 served by S4 (Q: null)
+687.207 C633 done served by S2 (Q: C650)
+687.207 C650 served by S2 (Q: null)
+687.494 C667 arrives
+687.494 C667 waits for S2 (Q: C667)
+687.672 C668 arrives
+687.672 C668 waits for S4 (Q: C668)
+688.544 C669 arrives
+688.544 C669 leaves
+688.552 C670 arrives
+688.552 C670 leaves
+689.389 C671 arrives
+689.389 C671 leaves
+689.407 C672 arrives
+689.407 C672 leaves
+689.737 C673 arrives
+689.737 C673 leaves
+690.895 C674 arrives
+690.895 C674 leaves
+691.553 C675 arrives
+691.553 C675 leaves
+691.584 C676 arrives
+691.584 C676 leaves
+691.861 C658 done served by S1 (Q: C663)
+691.861 C663 served by S1 (Q: null)
+692.056 C677 arrives
+692.056 C677 waits for S1 (Q: C677)
+693.752 C656 done served by S4 (Q: C668)
+693.752 C668 served by S4 (Q: null)
+695.241 C663 done served by S1 (Q: C677)
+695.241 C677 served by S1 (Q: null)
+695.370 C678 arrives
+695.370 C678 waits for S1 (Q: C678)
+695.796 C650 done served by S2 (Q: C667)
+695.796 C667 served by S2 (Q: null)
+696.978 C659 done served by S3 (Q: C664)
+696.978 C664 served by S3 (Q: null)
+697.545 C677 done served by S1 (Q: C678)
+697.545 C678 served by S1 (Q: null)
+698.503 C678 done served by S1 (Q: null)
+699.105 C653 done served by S0 (Q: C657)
+699.105 C657 served by S0 (Q: null)
+699.631 C679 arrives
+699.631 C679 served by S1 (Q: null)
+699.644 C679 done served by S1 (Q: null)
+700.074 C680 arrives
+700.074 C680 served by S1 (Q: null)
+700.291 C681 arrives
+700.291 C681 waits for S0 (Q: C681)
+700.638 C680 done served by S1 (Q: null)
+701.212 C667 done served by S2 (Q: null)
+702.287 C682 arrives
+702.287 C682 served by S1 (Q: null)
+702.456 C683 arrives
+702.456 C683 served by S2 (Q: null)
+702.529 C684 arrives
+702.529 C684 waits for S1 (Q: C684)
+703.239 C664 done served by S3 (Q: null)
+704.139 C685 arrives
+704.139 C685 served by S3 (Q: null)
+705.365 C686 arrives
+705.365 C686 waits for S2 (Q: C686)
+706.064 C687 arrives
+706.064 C687 waits for S3 (Q: C687)
+706.811 C688 arrives
+706.811 C688 waits for S4 (Q: C688)
+707.774 C689 arrives
+707.774 C689 leaves
+708.083 C690 arrives
+708.083 C690 leaves
+708.474 C691 arrives
+708.474 C691 leaves
+708.636 C692 arrives
+708.636 C692 leaves
+710.173 C693 arrives
+710.173 C693 leaves
+710.618 C694 arrives
+710.618 C694 leaves
+710.816 C695 arrives
+710.816 C695 leaves
+711.075 C696 arrives
+711.075 C696 leaves
+711.388 C697 arrives
+711.388 C697 leaves
+711.636 C657 done served by S0 (Q: C681)
+711.636 C681 served by S0 (Q: null)
+712.043 C668 done served by S4 (Q: C688)
+712.043 C688 served by S4 (Q: null)
+712.138 C688 done served by S4 (Q: null)
+713.776 C683 done served by S2 (Q: C686)
+713.776 C686 served by S2 (Q: null)
+714.223 C698 arrives
+714.223 C698 served by S4 (Q: null)
+714.662 C699 arrives
+714.662 C699 waits for S0 (Q: C699)
+715.752 C700 arrives
+715.752 C700 waits for S2 (Q: C700)
+715.971 C681 done served by S0 (Q: C699)
+715.971 C699 served by S0 (Q: null)
+715.988 C701 arrives
+715.988 C701 waits for S0 (Q: C701)
+716.362 C702 arrives
+716.362 C702 waits for S4 (Q: C702)
+717.096 C703 arrives
+717.096 C703 leaves
+717.216 C704 arrives
+717.216 C704 leaves
+717.332 C705 arrives
+717.332 C705 leaves
+717.547 C706 arrives
+717.547 C706 leaves
+718.463 C707 arrives
+718.463 C707 leaves
+719.129 C708 arrives
+719.129 C708 leaves
+719.932 C709 arrives
+719.932 C709 leaves
+720.074 C686 done served by S2 (Q: C700)
+720.074 C700 served by S2 (Q: null)
+720.093 C710 arrives
+720.093 C710 waits for S2 (Q: C710)
+722.944 C711 arrives
+722.944 C711 leaves
+723.524 C712 arrives
+723.524 C712 leaves
+723.573 C713 arrives
+723.573 C713 leaves
+723.749 C714 arrives
+723.749 C714 leaves
+724.114 C715 arrives
+724.114 C715 leaves
+724.377 C716 arrives
+724.377 C716 leaves
+724.751 C717 arrives
+724.751 C717 leaves
+724.828 C718 arrives
+724.828 C718 leaves
+725.903 C682 done served by S1 (Q: C684)
+725.903 C684 served by S1 (Q: null)
+727.300 C700 done served by S2 (Q: C710)
+727.300 C710 served by S2 (Q: null)
+729.821 C699 done served by S0 (Q: C701)
+729.821 C701 served by S0 (Q: null)
+730.257 C719 arrives
+730.257 C719 waits for S0 (Q: C719)
+730.425 C720 arrives
+730.425 C720 waits for S1 (Q: C720)
+730.952 C685 done served by S3 (Q: C687)
+730.952 C687 served by S3 (Q: null)
+731.065 C698 done served by S4 (Q: C702)
+731.065 C702 served by S4 (Q: null)
+731.796 C702 done served by S4 (Q: null)
+732.472 C721 arrives
+732.472 C721 served by S4 (Q: null)
+732.610 C722 arrives
+732.610 C722 waits for S2 (Q: C722)
+733.474 C723 arrives
+733.474 C723 waits for S3 (Q: C723)
+734.690 C724 arrives
+734.690 C724 waits for S4 (Q: C724)
+735.095 C725 arrives
+735.095 C725 leaves
+735.201 C701 done served by S0 (Q: C719)
+735.201 C719 served by S0 (Q: null)
+735.701 C719 done served by S0 (Q: null)
+735.821 C710 done served by S2 (Q: C722)
+735.821 C722 served by S2 (Q: null)
+736.707 C722 done served by S2 (Q: null)
+737.704 C721 done served by S4 (Q: C724)
+737.704 C724 served by S4 (Q: null)
+738.128 C726 arrives
+738.128 C726 served by S0 (Q: null)
+738.200 C684 done served by S1 (Q: C720)
+738.200 C720 served by S1 (Q: null)
+738.236 C727 arrives
+738.236 C727 served by S2 (Q: null)
+739.222 C728 arrives
+739.222 C728 waits for S0 (Q: C728)
+740.333 C687 done served by S3 (Q: C723)
+740.333 C723 served by S3 (Q: null)
+741.560 C729 arrives
+741.560 C729 waits for S1 (Q: C729)
+741.849 C724 done served by S4 (Q: null)
+742.845 C723 done served by S3 (Q: null)
+744.971 C726 done served by S0 (Q: C728)
+744.971 C728 served by S0 (Q: null)
+745.559 C728 done served by S0 (Q: null)
+746.023 C730 arrives
+746.023 C730 served by S0 (Q: null)
+746.808 C731 arrives
+746.808 C731 served by S3 (Q: null)
+747.005 C732 arrives
+747.005 C732 served by S4 (Q: null)
+747.978 C727 done served by S2 (Q: null)
+748.252 C731 done served by S3 (Q: null)
+748.950 C733 arrives
+748.950 C733 served by S2 (Q: null)
+750.343 C734 arrives
+750.343 C734 served by S3 (Q: null)
+750.455 C733 done served by S2 (Q: null)
+750.812 C735 arrives
+750.812 C735 served by S2 (Q: null)
+750.880 C736 arrives
+750.880 C736 waits for S0 (Q: C736)
+751.698 C735 done served by S2 (Q: null)
+751.850 C737 arrives
+751.850 C737 served by S2 (Q: null)
+751.913 C738 arrives
+751.913 C738 waits for S2 (Q: C738)
+752.180 C732 done served by S4 (Q: null)
+752.939 C739 arrives
+752.939 C739 served by S4 (Q: null)
+753.607 C737 done served by S2 (Q: C738)
+753.607 C738 served by S2 (Q: null)
+753.888 C739 done served by S4 (Q: null)
+754.486 C738 done served by S2 (Q: null)
+755.251 C740 arrives
+755.251 C740 served by S2 (Q: null)
+756.653 C740 done served by S2 (Q: null)
+757.584 C720 done served by S1 (Q: C729)
+757.584 C729 served by S1 (Q: null)
+757.962 C741 arrives
+757.962 C741 served by S2 (Q: null)
+759.359 C729 done served by S1 (Q: null)
+761.525 C730 done served by S0 (Q: C736)
+761.525 C736 served by S0 (Q: null)
+762.247 C742 arrives
+762.247 C742 served by S1 (Q: null)
+763.848 C743 arrives
+763.848 C743 served by S4 (Q: null)
+764.333 C744 arrives
+764.333 C744 waits for S0 (Q: C744)
+764.539 C745 arrives
+764.539 C745 waits for S1 (Q: C745)
+764.813 C746 arrives
+764.813 C746 waits for S2 (Q: C746)
+765.381 C743 done served by S4 (Q: null)
+765.519 C742 done served by S1 (Q: C745)
+765.519 C745 served by S1 (Q: null)
+766.061 C747 arrives
+766.061 C747 served by S4 (Q: null)
+766.674 C741 done served by S2 (Q: C746)
+766.674 C746 served by S2 (Q: null)
+768.676 C748 arrives
+768.676 C748 waits for S1 (Q: C748)
+768.959 C734 done served by S3 (Q: null)
+769.423 C749 arrives
+769.423 C749 served by S3 (Q: null)
+770.060 C750 arrives
+770.060 C750 waits for S2 (Q: C750)
+771.811 C751 arrives
+771.811 C751 waits for S3 (Q: C751)
+771.812 C752 arrives
+771.812 C752 waits for S4 (Q: C752)
+771.959 C736 done served by S0 (Q: C744)
+771.959 C744 served by S0 (Q: null)
+772.887 C753 arrives
+772.887 C753 waits for S0 (Q: C753)
+773.027 C754 arrives
+773.027 C754 leaves
+773.374 C755 arrives
+773.374 C755 leaves
+773.619 C756 arrives
+773.619 C756 leaves
+774.186 C757 arrives
+774.186 C757 leaves
+774.820 C758 arrives
+774.820 C758 leaves
+775.010 C759 arrives
+775.010 C759 leaves
+776.944 C745 done served by S1 (Q: C748)
+776.944 C748 served by S1 (Q: null)
+777.057 C760 arrives
+777.057 C760 waits for S1 (Q: C760)
+777.410 C744 done served by S0 (Q: C753)
+777.410 C753 served by S0 (Q: null)
+777.425 C746 done served by S2 (Q: C750)
+777.425 C750 served by S2 (Q: null)
+777.467 C761 arrives
+777.467 C761 waits for S0 (Q: C761)
+777.732 C753 done served by S0 (Q: C761)
+777.732 C761 served by S0 (Q: null)
+778.535 C762 arrives
+778.535 C762 waits for S0 (Q: C762)
+778.887 C763 arrives
+778.887 C763 waits for S2 (Q: C763)
+779.798 C764 arrives
+779.798 C764 leaves
+780.023 C761 done served by S0 (Q: C762)
+780.023 C762 served by S0 (Q: null)
+781.816 C765 arrives
+781.816 C765 waits for S0 (Q: C765)
+781.871 C766 arrives
+781.871 C766 leaves
+782.308 C767 arrives
+782.308 C767 leaves
+782.853 C747 done served by S4 (Q: C752)
+782.853 C752 served by S4 (Q: null)
+783.000 C749 done served by S3 (Q: C751)
+783.000 C751 served by S3 (Q: null)
+783.082 C752 done served by S4 (Q: null)
+783.611 C768 arrives
+783.611 C768 served by S4 (Q: null)
+784.260 C769 arrives
+784.260 C769 waits for S3 (Q: C769)
+784.453 C748 done served by S1 (Q: C760)
+784.453 C760 served by S1 (Q: null)
+784.648 C770 arrives
+784.648 C770 waits for S1 (Q: C770)
+787.113 C768 done served by S4 (Q: null)
+788.903 C771 arrives
+788.903 C771 served by S4 (Q: null)
+791.525 C771 done served by S4 (Q: null)
+793.017 C772 arrives
+793.017 C772 served by S4 (Q: null)
+793.354 C762 done served by S0 (Q: C765)
+793.354 C765 served by S0 (Q: null)
+793.389 C773 arrives
+793.389 C773 waits for S0 (Q: C773)
+793.684 C774 arrives
+793.684 C774 waits for S4 (Q: C774)
+793.995 C775 arrives
+793.995 C775 leaves
+794.391 C776 arrives
+794.391 C776 leaves
+794.859 C777 arrives
+794.859 C777 leaves
+794.940 C778 arrives
+794.940 C778 leaves
+795.820 C750 done served by S2 (Q: C763)
+795.820 C763 served by S2 (Q: null)
+797.455 C779 arrives
+797.455 C779 waits for S2 (Q: C779)
+797.459 C780 arrives
+797.459 C780 leaves
+797.579 C763 done served by S2 (Q: C779)
+797.579 C779 served by S2 (Q: null)
+797.694 C760 done served by S1 (Q: C770)
+797.694 C770 served by S1 (Q: null)
+802.335 C781 arrives
+802.335 C781 waits for S1 (Q: C781)
+802.735 C782 arrives
+802.735 C782 waits for S2 (Q: C782)
+804.323 C765 done served by S0 (Q: C773)
+804.323 C773 served by S0 (Q: null)
+804.631 C783 arrives
+804.631 C783 waits for S0 (Q: C783)
+804.817 C784 arrives
+804.817 C784 leaves
+805.442 C770 done served by S1 (Q: C781)
+805.442 C781 served by S1 (Q: null)
+805.531 C785 arrives
+805.531 C785 waits for S1 (Q: C785)
+806.231 C786 arrives
+806.231 C786 leaves
+806.551 C787 arrives
+806.551 C787 leaves
+808.353 C773 done served by S0 (Q: C783)
+808.353 C783 served by S0 (Q: null)
+808.505 C783 done served by S0 (Q: null)
+808.810 C772 done served by S4 (Q: C774)
+808.810 C774 served by S4 (Q: null)
+808.976 C788 arrives
+808.976 C788 served by S0 (Q: null)
+809.073 C789 arrives
+809.073 C789 waits for S0 (Q: C789)
+809.297 C790 arrives
+809.297 C790 waits for S4 (Q: C790)
+809.468 C788 done served by S0 (Q: C789)
+809.468 C789 served by S0 (Q: null)
+810.251 C791 arrives
+810.251 C791 waits for S0 (Q: C791)
+810.261 C792 arrives
+810.261 C792 leaves
+810.593 C793 arrives
+810.593 C793 leaves
+811.901 C794 arrives
+811.901 C794 leaves
+812.197 C774 done served by S4 (Q: C790)
+812.197 C790 served by S4 (Q: null)
+813.054 C790 done served by S4 (Q: null)
+813.189 C795 arrives
+813.189 C795 served by S4 (Q: null)
+813.611 C789 done served by S0 (Q: C791)
+813.611 C791 served by S0 (Q: null)
+813.730 C796 arrives
+813.730 C796 waits for S0 (Q: C796)
+814.513 C797 arrives
+814.513 C797 waits for S4 (Q: C797)
+815.714 C751 done served by S3 (Q: C769)
+815.714 C769 served by S3 (Q: null)
+816.258 C779 done served by S2 (Q: C782)
+816.258 C782 served by S2 (Q: null)
+816.325 C791 done served by S0 (Q: C796)
+816.325 C796 served by S0 (Q: null)
+817.167 C798 arrives
+817.167 C798 waits for S0 (Q: C798)
+818.035 C769 done served by S3 (Q: null)
+818.084 C799 arrives
+818.084 C799 served by S3 (Q: null)
+818.203 C800 arrives
+818.203 C800 waits for S2 (Q: C800)
+818.704 C795 done served by S4 (Q: C797)
+818.704 C797 served by S4 (Q: null)
+818.936 C801 arrives
+818.936 C801 waits for S3 (Q: C801)
+819.334 C802 arrives
+819.334 C802 waits for S4 (Q: C802)
+819.518 C796 done served by S0 (Q: C798)
+819.518 C798 served by S0 (Q: null)
+819.785 C797 done served by S4 (Q: C802)
+819.785 C802 served by S4 (Q: null)
+820.902 C803 arrives
+820.902 C803 waits for S0 (Q: C803)
+822.676 C804 arrives
+822.676 C804 waits for S4 (Q: C804)
+822.681 C805 arrives
+822.681 C805 leaves
+823.635 C802 done served by S4 (Q: C804)
+823.635 C804 served by S4 (Q: null)
+824.097 C806 arrives
+824.097 C806 waits for S4 (Q: C806)
+824.131 C807 arrives
+824.131 C807 leaves
+824.187 C808 arrives
+824.187 C808 leaves
+825.671 C809 arrives
+825.671 C809 leaves
+825.781 C810 arrives
+825.781 C810 leaves
+826.177 C811 arrives
+826.177 C811 leaves
+827.057 C798 done served by S0 (Q: C803)
+827.057 C803 served by S0 (Q: null)
+827.214 C812 arrives
+827.214 C812 waits for S0 (Q: C812)
+827.431 C799 done served by S3 (Q: C801)
+827.431 C801 served by S3 (Q: null)
+827.742 C813 arrives
+827.742 C813 waits for S3 (Q: C813)
+827.781 C781 done served by S1 (Q: C785)
+827.781 C785 served by S1 (Q: null)
+827.806 C814 arrives
+827.806 C814 waits for S1 (Q: C814)
+829.159 C815 arrives
+829.159 C815 leaves
+830.025 C816 arrives
+830.025 C816 leaves
+830.152 C817 arrives
+830.152 C817 leaves
+830.811 C818 arrives
+830.811 C818 leaves
+831.622 C819 arrives
+831.622 C819 leaves
+832.063 C801 done served by S3 (Q: C813)
+832.063 C813 served by S3 (Q: null)
+832.247 C820 arrives
+832.247 C820 waits for S3 (Q: C820)
+832.396 C821 arrives
+832.396 C821 leaves
+832.756 C822 arrives
+832.756 C822 leaves
+832.881 C823 arrives
+832.881 C823 leaves
+834.232 C824 arrives
+834.232 C824 leaves
+834.649 C785 done served by S1 (Q: C814)
+834.649 C814 served by S1 (Q: null)
+835.813 C803 done served by S0 (Q: C812)
+835.813 C812 served by S0 (Q: null)
+837.041 C825 arrives
+837.041 C825 waits for S0 (Q: C825)
+837.271 C814 done served by S1 (Q: null)
+838.703 C813 done served by S3 (Q: C820)
+838.703 C820 served by S3 (Q: null)
+840.258 C826 arrives
+840.258 C826 served by S1 (Q: null)
+841.058 C782 done served by S2 (Q: C800)
+841.058 C800 served by S2 (Q: null)
+842.089 C827 arrives
+842.089 C827 waits for S1 (Q: C827)
+842.585 C812 done served by S0 (Q: C825)
+842.585 C825 served by S0 (Q: null)
+842.716 C800 done served by S2 (Q: null)
+842.794 C826 done served by S1 (Q: C827)
+842.794 C827 served by S1 (Q: null)
+844.271 C828 arrives
+844.271 C828 served by S2 (Q: null)
+845.540 C829 arrives
+845.540 C829 waits for S0 (Q: C829)
+846.982 C830 arrives
+846.982 C830 waits for S1 (Q: C830)
+847.122 C827 done served by S1 (Q: C830)
+847.122 C830 served by S1 (Q: null)
+847.125 C820 done served by S3 (Q: null)
+847.162 C831 arrives
+847.162 C831 served by S3 (Q: null)
+847.473 C825 done served by S0 (Q: C829)
+847.473 C829 served by S0 (Q: null)
+847.588 C830 done served by S1 (Q: null)
+847.643 C832 arrives
+847.643 C832 served by S1 (Q: null)
+847.750 C829 done served by S0 (Q: null)
+847.811 C828 done served by S2 (Q: null)
+849.263 C832 done served by S1 (Q: null)
+850.316 C833 arrives
+850.316 C833 served by S0 (Q: null)
+851.908 C834 arrives
+851.908 C834 served by S1 (Q: null)
+851.934 C834 done served by S1 (Q: null)
+852.001 C835 arrives
+852.001 C835 served by S1 (Q: null)
+853.407 C836 arrives
+853.407 C836 served by S2 (Q: null)
+853.611 C804 done served by S4 (Q: C806)
+853.611 C806 served by S4 (Q: null)
+854.400 C837 arrives
+854.400 C837 waits for S0 (Q: C837)
+854.871 C835 done served by S1 (Q: null)
+855.501 C836 done served by S2 (Q: null)
+855.578 C838 arrives
+855.578 C838 served by S1 (Q: null)
+856.386 C833 done served by S0 (Q: C837)
+856.386 C837 served by S0 (Q: null)
+857.782 C837 done served by S0 (Q: null)
+858.259 C839 arrives
+858.259 C839 served by S0 (Q: null)
+859.420 C840 arrives
+859.420 C840 served by S2 (Q: null)
+859.774 C841 arrives
+859.774 C841 waits for S0 (Q: C841)
+859.869 C838 done served by S1 (Q: null)
+860.196 C839 done served by S0 (Q: C841)
+860.196 C841 served by S0 (Q: null)
+862.268 C842 arrives
+862.268 C842 served by S1 (Q: null)
+862.764 C840 done served by S2 (Q: null)
+862.909 C843 arrives
+862.909 C843 served by S2 (Q: null)
+863.124 C843 done served by S2 (Q: null)
+864.341 C831 done served by S3 (Q: null)
+864.720 C841 done served by S0 (Q: null)
+865.127 C844 arrives
+865.127 C844 served by S0 (Q: null)
+865.989 C845 arrives
+865.989 C845 served by S2 (Q: null)
+866.133 C846 arrives
+866.133 C846 served by S3 (Q: null)
+866.324 C846 done served by S3 (Q: null)
+866.591 C847 arrives
+866.591 C847 served by S3 (Q: null)
+866.903 C844 done served by S0 (Q: null)
+866.984 C848 arrives
+866.984 C848 served by S0 (Q: null)
+867.522 C848 done served by S0 (Q: null)
+867.750 C845 done served by S2 (Q: null)
+869.156 C849 arrives
+869.156 C849 served by S0 (Q: null)
+870.103 C847 done served by S3 (Q: null)
+870.388 C850 arrives
+870.388 C850 served by S2 (Q: null)
+870.518 C850 done served by S2 (Q: null)
+870.582 C806 done served by S4 (Q: null)
+872.440 C851 arrives
+872.440 C851 served by S2 (Q: null)
+872.689 C852 arrives
+872.689 C852 served by S3 (Q: null)
+873.116 C853 arrives
+873.116 C853 served by S4 (Q: null)
+873.919 C854 arrives
+873.919 C854 waits for S0 (Q: C854)
+874.425 C855 arrives
+874.425 C855 waits for S1 (Q: C855)
+874.549 C849 done served by S0 (Q: C854)
+874.549 C854 served by S0 (Q: null)
+875.035 C856 arrives
+875.035 C856 waits for S0 (Q: C856)
+875.712 C852 done served by S3 (Q: null)
+876.034 C854 done served by S0 (Q: C856)
+876.034 C856 served by S0 (Q: null)
+876.288 C857 arrives
+876.288 C857 served by S3 (Q: null)
+876.467 C858 arrives
+876.467 C858 waits for S0 (Q: C858)
+876.703 C859 arrives
+876.703 C859 waits for S2 (Q: C859)
+878.520 C853 done served by S4 (Q: null)
+879.035 C860 arrives
+879.035 C860 served by S4 (Q: null)
+879.121 C861 arrives
+879.121 C861 waits for S3 (Q: C861)
+879.175 C862 arrives
+879.175 C862 waits for S4 (Q: C862)
+879.196 C856 done served by S0 (Q: C858)
+879.196 C858 served by S0 (Q: null)
+880.592 C863 arrives
+880.592 C863 waits for S0 (Q: C863)
+881.488 C864 arrives
+881.488 C864 leaves
+881.655 C865 arrives
+881.655 C865 leaves
+882.334 C860 done served by S4 (Q: C862)
+882.334 C862 served by S4 (Q: null)
+882.530 C866 arrives
+882.530 C866 waits for S4 (Q: C866)
+882.770 C857 done served by S3 (Q: C861)
+882.770 C861 served by S3 (Q: null)
+883.466 C851 done served by S2 (Q: C859)
+883.466 C859 served by S2 (Q: null)
+883.487 C867 arrives
+883.487 C867 waits for S2 (Q: C867)
+885.526 C868 arrives
+885.526 C868 waits for S3 (Q: C868)
+886.438 C869 arrives
+886.438 C869 leaves
+888.000 C870 arrives
+888.000 C870 leaves
+889.749 C842 done served by S1 (Q: C855)
+889.749 C855 served by S1 (Q: null)
+890.163 C871 arrives
+890.163 C871 waits for S1 (Q: C871)
+890.258 C872 arrives
+890.258 C872 leaves
+890.616 C859 done served by S2 (Q: C867)
+890.616 C867 served by S2 (Q: null)
+891.525 C873 arrives
+891.525 C873 waits for S2 (Q: C873)
+892.963 C874 arrives
+892.963 C874 leaves
+893.019 C875 arrives
+893.019 C875 leaves
+893.952 C855 done served by S1 (Q: C871)
+893.952 C871 served by S1 (Q: null)
+895.370 C876 arrives
+895.370 C876 waits for S1 (Q: C876)
+895.438 C862 done served by S4 (Q: C866)
+895.438 C866 served by S4 (Q: null)
+895.465 C877 arrives
+895.465 C877 waits for S4 (Q: C877)
+896.030 C867 done served by S2 (Q: C873)
+896.030 C873 served by S2 (Q: null)
+896.139 C866 done served by S4 (Q: C877)
+896.139 C877 served by S4 (Q: null)
+896.321 C871 done served by S1 (Q: C876)
+896.321 C876 served by S1 (Q: null)
+897.528 C878 arrives
+897.528 C878 waits for S1 (Q: C878)
+899.875 C879 arrives
+899.875 C879 waits for S2 (Q: C879)
+901.094 C876 done served by S1 (Q: C878)
+901.094 C878 served by S1 (Q: null)
+901.438 C880 arrives
+901.438 C880 waits for S1 (Q: C880)
+901.677 C881 arrives
+901.677 C881 waits for S4 (Q: C881)
+902.168 C882 arrives
+902.168 C882 leaves
+902.198 C873 done served by S2 (Q: C879)
+902.198 C879 served by S2 (Q: null)
+902.640 C861 done served by S3 (Q: C868)
+902.640 C868 served by S3 (Q: null)
+903.818 C858 done served by S0 (Q: C863)
+903.818 C863 served by S0 (Q: null)
+903.951 C877 done served by S4 (Q: C881)
+903.951 C881 served by S4 (Q: null)
+904.164 C883 arrives
+904.164 C883 waits for S0 (Q: C883)
+904.321 C884 arrives
+904.321 C884 waits for S2 (Q: C884)
+904.731 C885 arrives
+904.731 C885 waits for S3 (Q: C885)
+905.962 C881 done served by S4 (Q: null)
+906.629 C886 arrives
+906.629 C886 served by S4 (Q: null)
+907.328 C887 arrives
+907.328 C887 waits for S4 (Q: C887)
+907.343 C878 done served by S1 (Q: C880)
+907.343 C880 served by S1 (Q: null)
+907.375 C888 arrives
+907.375 C888 waits for S1 (Q: C888)
+907.643 C879 done served by S2 (Q: C884)
+907.643 C884 served by S2 (Q: null)
+908.449 C880 done served by S1 (Q: C888)
+908.449 C888 served by S1 (Q: null)
+908.589 C889 arrives
+908.589 C889 waits for S1 (Q: C889)
+908.661 C890 arrives
+908.661 C890 waits for S2 (Q: C890)
+909.103 C891 arrives
+909.103 C891 leaves
+910.153 C892 arrives
+910.153 C892 leaves
+910.439 C893 arrives
+910.439 C893 leaves
+911.352 C894 arrives
+911.352 C894 leaves
+911.627 C895 arrives
+911.627 C895 leaves
+911.814 C896 arrives
+911.814 C896 leaves
+912.628 C897 arrives
+912.628 C897 leaves
+912.880 C898 arrives
+912.880 C898 leaves
+913.408 C899 arrives
+913.408 C899 leaves
+913.951 C900 arrives
+913.951 C900 leaves
+914.444 C901 arrives
+914.444 C901 leaves
+914.651 C902 arrives
+914.651 C902 leaves
+915.527 C903 arrives
+915.527 C903 leaves
+915.592 C904 arrives
+915.592 C904 leaves
+916.162 C888 done served by S1 (Q: C889)
+916.162 C889 served by S1 (Q: null)
+916.314 C905 arrives
+916.314 C905 waits for S1 (Q: C905)
+917.698 C906 arrives
+917.698 C906 leaves
+918.928 C907 arrives
+918.928 C907 leaves
+919.190 C886 done served by S4 (Q: C887)
+919.190 C887 served by S4 (Q: null)
+923.710 C908 arrives
+923.710 C908 waits for S4 (Q: C908)
+925.268 C909 arrives
+925.268 C909 leaves
+925.308 C910 arrives
+925.308 C910 leaves
+925.600 C887 done served by S4 (Q: C908)
+925.600 C908 served by S4 (Q: null)
+926.547 C911 arrives
+926.547 C911 waits for S4 (Q: C911)
+927.259 C912 arrives
+927.259 C912 leaves
+927.384 C908 done served by S4 (Q: C911)
+927.384 C911 served by S4 (Q: null)
+927.949 C911 done served by S4 (Q: null)
+928.035 C913 arrives
+928.035 C913 served by S4 (Q: null)
+928.264 C914 arrives
+928.264 C914 waits for S4 (Q: C914)
+928.315 C915 arrives
+928.315 C915 leaves
+929.068 C916 arrives
+929.068 C916 leaves
+929.286 C917 arrives
+929.286 C917 leaves
+929.930 C918 arrives
+929.930 C918 leaves
+931.731 C889 done served by S1 (Q: C905)
+931.731 C905 served by S1 (Q: null)
+931.997 C919 arrives
+931.997 C919 waits for S1 (Q: C919)
+932.584 C920 arrives
+932.584 C920 leaves
+934.865 C863 done served by S0 (Q: C883)
+934.865 C883 served by S0 (Q: null)
+935.130 C921 arrives
+935.130 C921 waits for S0 (Q: C921)
+935.563 C913 done served by S4 (Q: C914)
+935.563 C914 served by S4 (Q: null)
+936.574 C883 done served by S0 (Q: C921)
+936.574 C921 served by S0 (Q: null)
+937.357 C914 done served by S4 (Q: null)
+937.541 C922 arrives
+937.541 C922 served by S4 (Q: null)
+938.142 C884 done served by S2 (Q: C890)
+938.142 C890 served by S2 (Q: null)
+939.391 C905 done served by S1 (Q: C919)
+939.391 C919 served by S1 (Q: null)
+939.954 C923 arrives
+939.954 C923 waits for S0 (Q: C923)
+940.732 C868 done served by S3 (Q: C885)
+940.732 C885 served by S3 (Q: null)
+942.742 C885 done served by S3 (Q: null)
+945.695 C890 done served by S2 (Q: null)
+946.066 C919 done served by S1 (Q: null)
+946.182 C924 arrives
+946.182 C924 served by S1 (Q: null)
+947.058 C925 arrives
+947.058 C925 served by S2 (Q: null)
+947.651 C926 arrives
+947.651 C926 served by S3 (Q: null)
+948.219 C926 done served by S3 (Q: null)
+949.301 C924 done served by S1 (Q: null)
+949.706 C927 arrives
+949.706 C927 served by S1 (Q: null)
+949.882 C928 arrives
+949.882 C928 served by S3 (Q: null)
+950.617 C928 done served by S3 (Q: null)
+951.802 C929 arrives
+951.802 C929 served by S3 (Q: null)
+952.040 C930 arrives
+952.040 C930 waits for S1 (Q: C930)
+952.198 C931 arrives
+952.198 C931 waits for S2 (Q: C931)
+953.390 C925 done served by S2 (Q: C931)
+953.390 C931 served by S2 (Q: null)
+954.138 C932 arrives
+954.138 C932 waits for S2 (Q: C932)
+954.943 C933 arrives
+954.943 C933 waits for S3 (Q: C933)
+954.997 C934 arrives
+954.997 C934 waits for S4 (Q: C934)
+955.707 C922 done served by S4 (Q: C934)
+955.707 C934 served by S4 (Q: null)
+955.774 C927 done served by S1 (Q: C930)
+955.774 C930 served by S1 (Q: null)
+956.460 C931 done served by S2 (Q: C932)
+956.460 C932 served by S2 (Q: null)
+957.493 C935 arrives
+957.493 C935 waits for S1 (Q: C935)
+957.785 C936 arrives
+957.785 C936 waits for S2 (Q: C936)
+958.442 C937 arrives
+958.442 C937 waits for S4 (Q: C937)
+958.625 C921 done served by S0 (Q: C923)
+958.625 C923 served by S0 (Q: null)
+959.173 C930 done served by S1 (Q: C935)
+959.173 C935 served by S1 (Q: null)
+959.715 C923 done served by S0 (Q: null)
+959.867 C929 done served by S3 (Q: C933)
+959.867 C933 served by S3 (Q: null)
+960.141 C933 done served by S3 (Q: null)
+960.189 C938 arrives
+960.189 C938 served by S0 (Q: null)
+960.304 C938 done served by S0 (Q: null)
+960.943 C939 arrives
+960.943 C939 served by S0 (Q: null)
+961.404 C940 arrives
+961.404 C940 served by S3 (Q: null)
+961.926 C940 done served by S3 (Q: null)
+962.437 C935 done served by S1 (Q: null)
+963.607 C939 done served by S0 (Q: null)
+964.568 C934 done served by S4 (Q: C937)
+964.568 C937 served by S4 (Q: null)
+964.584 C941 arrives
+964.584 C941 served by S0 (Q: null)
+964.732 C942 arrives
+964.732 C942 served by S1 (Q: null)
+964.952 C932 done served by S2 (Q: C936)
+964.952 C936 served by S2 (Q: null)
+967.610 C943 arrives
+967.610 C943 served by S3 (Q: null)
+969.125 C944 arrives
+969.125 C944 waits for S0 (Q: C944)
+969.280 C945 arrives
+969.280 C945 waits for S1 (Q: C945)
+969.616 C942 done served by S1 (Q: C945)
+969.616 C945 served by S1 (Q: null)
+970.275 C943 done served by S3 (Q: null)
+971.700 C941 done served by S0 (Q: C944)
+971.700 C944 served by S0 (Q: null)
+973.054 C946 arrives
+973.054 C946 served by S3 (Q: null)
+973.640 C936 done served by S2 (Q: null)
+973.811 C947 arrives
+973.811 C947 served by S2 (Q: null)
+974.405 C948 arrives
+974.405 C948 waits for S0 (Q: C948)
+976.503 C949 arrives
+976.503 C949 waits for S1 (Q: C949)
+976.591 C950 arrives
+976.591 C950 waits for S2 (Q: C950)
+976.749 C951 arrives
+976.749 C951 waits for S3 (Q: C951)
+976.877 C944 done served by S0 (Q: C948)
+976.877 C948 served by S0 (Q: null)
+977.865 C946 done served by S3 (Q: C951)
+977.865 C951 served by S3 (Q: null)
+978.528 C947 done served by S2 (Q: C950)
+978.528 C950 served by S2 (Q: null)
+979.134 C950 done served by S2 (Q: null)
+979.452 C952 arrives
+979.452 C952 served by S2 (Q: null)
+979.663 C948 done served by S0 (Q: null)
+979.786 C953 arrives
+979.786 C953 served by S0 (Q: null)
+981.192 C937 done served by S4 (Q: null)
+981.289 C954 arrives
+981.289 C954 served by S4 (Q: null)
+981.350 C953 done served by S0 (Q: null)
+981.705 C945 done served by S1 (Q: C949)
+981.705 C949 served by S1 (Q: null)
+981.997 C955 arrives
+981.997 C955 served by S0 (Q: null)
+983.023 C956 arrives
+983.023 C956 waits for S0 (Q: C956)
+983.618 C954 done served by S4 (Q: null)
+983.751 C951 done served by S3 (Q: null)
+984.451 C952 done served by S2 (Q: null)
+984.520 C957 arrives
+984.520 C957 served by S2 (Q: null)
+985.387 C958 arrives
+985.387 C958 served by S3 (Q: null)
+985.748 C959 arrives
+985.748 C959 served by S4 (Q: null)
+985.980 C960 arrives
+985.980 C960 waits for S1 (Q: C960)
+986.291 C961 arrives
+986.291 C961 waits for S2 (Q: C961)
+986.334 C962 arrives
+986.334 C962 waits for S3 (Q: C962)
+986.585 C963 arrives
+986.585 C963 waits for S4 (Q: C963)
+987.722 C964 arrives
+987.722 C964 leaves
+988.367 C965 arrives
+988.367 C965 leaves
+988.724 C955 done served by S0 (Q: C956)
+988.724 C956 served by S0 (Q: null)
+991.805 C966 arrives
+991.805 C966 waits for S0 (Q: C966)
+991.981 C967 arrives
+991.981 C967 leaves
+992.803 C957 done served by S2 (Q: C961)
+992.803 C961 served by S2 (Q: null)
+993.800 C968 arrives
+993.800 C968 waits for S2 (Q: C968)
+993.890 C969 arrives
+993.890 C969 leaves
+994.577 C970 arrives
+994.577 C970 leaves
+995.023 C971 arrives
+995.023 C971 leaves
+996.178 C972 arrives
+996.178 C972 leaves
+996.497 C973 arrives
+996.497 C973 leaves
+997.158 C974 arrives
+997.158 C974 leaves
+999.232 C959 done served by S4 (Q: C963)
+999.232 C963 served by S4 (Q: null)
+999.892 C975 arrives
+999.892 C975 waits for S4 (Q: C975)
+999.917 C976 arrives
+999.917 C976 leaves
+1001.045 C977 arrives
+1001.045 C977 leaves
+1001.114 C978 arrives
+1001.114 C978 leaves
+1001.737 C979 arrives
+1001.737 C979 leaves
+1004.098 C949 done served by S1 (Q: C960)
+1004.098 C960 served by S1 (Q: null)
+1005.090 C980 arrives
+1005.090 C980 waits for S1 (Q: C980)
+1005.488 C981 arrives
+1005.488 C981 leaves
+1005.775 C960 done served by S1 (Q: C980)
+1005.775 C980 served by S1 (Q: null)
+1006.113 C982 arrives
+1006.113 C982 waits for S1 (Q: C982)
+1007.372 C983 arrives
+1007.372 C983 leaves
+1007.567 C961 done served by S2 (Q: C968)
+1007.567 C968 served by S2 (Q: null)
+1007.582 C984 arrives
+1007.582 C984 waits for S2 (Q: C984)
+1007.986 C985 arrives
+1007.986 C985 leaves
+1009.229 C986 arrives
+1009.229 C986 leaves
+1009.818 C987 arrives
+1009.818 C987 leaves
+1013.505 C963 done served by S4 (Q: C975)
+1013.505 C975 served by S4 (Q: null)
+1015.473 C988 arrives
+1015.473 C988 waits for S4 (Q: C988)
+1015.651 C989 arrives
+1015.651 C989 leaves
+1015.835 C968 done served by S2 (Q: C984)
+1015.835 C984 served by S2 (Q: null)
+1016.084 C990 arrives
+1016.084 C990 waits for S2 (Q: C990)
+1016.476 C991 arrives
+1016.476 C991 leaves
+1016.815 C992 arrives
+1016.815 C992 leaves
+1017.412 C993 arrives
+1017.412 C993 leaves
+1018.842 C984 done served by S2 (Q: C990)
+1018.842 C990 served by S2 (Q: null)
+1020.402 C975 done served by S4 (Q: C988)
+1020.402 C988 served by S4 (Q: null)
+1021.117 C956 done served by S0 (Q: C966)
+1021.117 C966 served by S0 (Q: null)
+1021.788 C994 arrives
+1021.788 C994 waits for S0 (Q: C994)
+1022.302 C958 done served by S3 (Q: C962)
+1022.302 C962 served by S3 (Q: null)
+1022.709 C995 arrives
+1022.709 C995 waits for S2 (Q: C995)
+1022.716 C996 arrives
+1022.716 C996 waits for S3 (Q: C996)
+1024.895 C997 arrives
+1024.895 C997 waits for S4 (Q: C997)
+1024.954 C998 arrives
+1024.954 C998 leaves
+1025.197 C988 done served by S4 (Q: C997)
+1025.197 C997 served by S4 (Q: null)
+1027.298 C999 arrives
+1027.298 C999 waits for S4 (Q: C999)
+1028.879 C966 done served by S0 (Q: C994)
+1028.879 C994 served by S0 (Q: null)
+1029.951 C997 done served by S4 (Q: C999)
+1029.951 C999 served by S4 (Q: null)
+1030.654 C994 done served by S0 (Q: null)
+1031.047 C990 done served by S2 (Q: C995)
+1031.047 C995 served by S2 (Q: null)
+1031.865 C995 done served by S2 (Q: null)
+1032.799 C999 done served by S4 (Q: null)
+1033.652 C980 done served by S1 (Q: C982)
+1033.652 C982 served by S1 (Q: null)
+1033.652 C962 done served by S3 (Q: C996)
+1033.652 C996 served by S3 (Q: null)
+1034.586 C996 done served by S3 (Q: null)
+1058.304 C982 done served by S1 (Q: null)
+5.263 667 333

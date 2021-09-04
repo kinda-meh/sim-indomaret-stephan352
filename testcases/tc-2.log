@@ -1,0 +1,32 @@
+ 0.000 C0 arrives
+ 0.000 C0 served by S0 (Q: null)
+ 0.174 C1 arrives
+ 0.174 C1 waits for S0 (Q: C1)
+ 0.313 C0 done served by S0 (Q: C1)
+ 0.313 C1 served by S0 (Q: null)
+ 0.417 C1 done served by S0 (Q: null)
+ 0.669 C2 arrives
+ 0.669 C2 served by S0 (Q: null)
+ 1.369 C2 done served by S0 (Q: null)
+ 1.542 C3 arrives
+ 1.542 C3 served by S0 (Q: null)
+ 1.557 C3 done served by S0 (Q: null)
+ 2.154 C4 arrives
+ 2.154 C4 served by S0 (Q: null)
+ 2.172 C5 arrives
+ 2.172 C5 waits for S0 (Q: C5)
+ 2.308 C4 done served by S0 (Q: C5)
+ 2.308 C5 served by S0 (Q: null)
+ 2.321 C5 done served by S0 (Q: null)
+ 5.004 C6 arrives
+ 5.004 C6 served by S0 (Q: null)
+ 5.024 C7 arrives
+ 5.024 C7 waits for S0 (Q: C7)
+ 5.059 C8 arrives
+ 5.059 C8 leaves
+ 5.089 C9 arrives
+ 5.089 C9 leaves
+ 6.481 C6 done served by S0 (Q: C7)
+ 6.481 C7 served by S0 (Q: null)
+ 9.074 C7 done served by S0 (Q: null)
+0.217 8 2
