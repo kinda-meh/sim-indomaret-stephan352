@@ -6,7 +6,8 @@ def main(inp):
     lst = list(inp)
     sim = Simulator(int(lst[0]), int(lst[1]), int(lst[2]), float(lst[3]), float(lst[4]))
     ave, served, lost = sim.run()
-    print(f"{float(ave):.4} {served} {lost}")
+    ave = round(ave, 3)
+    print(f"{ave} {served} {lost}")
     return ave, served, lost
 
 
