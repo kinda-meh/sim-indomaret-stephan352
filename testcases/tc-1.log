@@ -1,0 +1,16 @@
+ 0.000 C0 arrives
+ 0.000 C0 served by S0 (Q: null)
+ 0.313 C0 done served by S0 (Q: null)
+ 0.314 C1 arrives
+ 0.314 C1 served by S0 (Q: null)
+ 0.417 C1 done served by S0 (Q: null)
+ 1.205 C2 arrives
+ 1.205 C2 served by S0 (Q: null)
+ 1.904 C2 done served by S0 (Q: null)
+ 2.776 C3 arrives
+ 2.776 C3 served by S0 (Q: null)
+ 2.791 C3 done served by S0 (Q: null)
+ 3.877 C4 arrives
+ 3.877 C4 served by S0 (Q: null)
+ 4.031 C4 done served by S0 (Q: null)
+0.000 5 0
