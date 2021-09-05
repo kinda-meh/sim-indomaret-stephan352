@@ -1,0 +1,20 @@
+name: Actions
+on: [push]
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: pip install flake8 pytest
+      - name: Lint with flake8
+        run: flake8 . --max-line-length 88 --count --show-source --statistics
+      - name: Test with pytest
+        run: pytest -v
