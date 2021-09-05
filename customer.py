@@ -8,7 +8,7 @@ class Customer:
         return self.service_time
 
     def wait(self, time, id):
-        print(f"{time:5.3f} C{self.id} waits for S{id} (Q: C{self.id})")
+        print(f" {time:5.3f} C{self.id} waits for S{id} (Q: C{self.id})")
 
     def leave(self):
-        print(f"{self.arrival_time:5.3f} C{self.id} leaves")
+        print(f" {self.arrival_time:5.3f} C{self.id} leaves")

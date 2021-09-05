@@ -36,7 +36,7 @@ class Simulator:
         return None
 
     def direct_cust_to_cash(self, time, customer):
-        print(f"{time:5.3f} C{customer.id} arrives")
+        print(f" {time:5.3f} C{customer.id} arrives")
         idle_cash = self.find_first_idle_cash()
         if idle_cash:
             idle_cash.serve_cust(time, customer)
