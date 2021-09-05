@@ -19,7 +19,7 @@ class Simulator:
         arrivals = []
         T = 0
         for i in range(no_of_customers):
-            arrivals.append(ArrivalEvent.create(float(T)))
+            arrivals.append(ArrivalEvent(float(T)))
             T += self.generator.generate_inter_arrival_time()
         return arrivals
 
@@ -52,7 +52,7 @@ class Simulator:
         last_dispatched_id = 0
         while self.events.get_events():
             event = self.events.pop()
-            if event.type is EventType.ARRIVE:
+            if isinstance(event, ArrivalEvent):
                 service_time = self.generator.generate_service_time()
                 new_customer = Customer(event.time, last_dispatched_id, service_time)
                 self.direct_cust_to_cash(event.time, new_customer)
