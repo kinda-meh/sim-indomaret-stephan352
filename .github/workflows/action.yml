@@ -15,6 +15,6 @@ jobs:
       - name: Install dependencies
         run: pip install flake8 pytest
       - name: Lint with flake8
-        run: flake8 . --count --show-source --statistics
+        run: flake8 . --max-line-length 88 --count --show-source --statistics
       - name: Test with pytest
         run: pytest -v
