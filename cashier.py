@@ -7,7 +7,8 @@ class Cashier:
         self.id = id
 
         self.customer_serving = None
-        self.customer_waiting = None
+        #self.customer_waiting = None
+        self.customer_waiting = []
 
         self.total_waiting_time = 0
         self.num_served_customers = 0
@@ -32,20 +33,23 @@ class Cashier:
 
     def make_cust_wait(self, time, customer):
         customer.wait(time, self.id)
-        self.customer_waiting = customer
+        #self.customer_waiting = customer
+        self.customer_waiting.append(customer)
 
     def on_done(self, time):
         if self.customer_waiting:
             print(
-                f" {time:5.3f} C{self.customer_serving.id} done served by S{self.id} (Q: C{self.customer_waiting.id})"
+            f" {time:5.3f} C{self.customer_serving.id} done served by S{self.id} (Q: C{self.customer_waiting[0].id})"
             )
         else:
             print(f" {time:5.3f} C{self.customer_serving.id} done served by S{self.id} (Q: null)")
+
         self.customer_serving = None
-        if self.customer_waiting is not None:
+        if self.customer_waiting:
             self.serve_waiting(time)
 
     def serve_waiting(self, time):
-        customer, self.customer_waiting = self.customer_waiting, None
+        customer = self.customer_waiting.pop(0)
+        #customer, self.customer_waiting = self.customer_waiting, None
         self.total_waiting_time += time - customer.arrival_time
         self.serve_cust(time, customer)
